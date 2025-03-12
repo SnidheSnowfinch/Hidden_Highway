@@ -1,0 +1,643 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.logo img{
+    width: 106px;
+}
+
+.home-top-section {
+    width: 100%;
+    height: 110vh;
+    background: url('./images/home-bg.webp') no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-top-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    backdrop-filter: blur(5px); 
+    border-bottom: 1px solid rgb(54 49 49 / 15%);
+    z-index: 2;
+}
+
+.navbar a {
+    color: #C8C8C8;
+    text-decoration: none;
+    margin: 3px 30px;
+    font-size: 14px;
+}
+
+.navbar .menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .reservation-btn {
+    border: 1px solid #FFFFFF;
+    color: #ffffff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.home-top-content {
+    position: relative;
+    z-index: 2;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.home-top-content h1 {
+    font-family: 'Libre Caslon Display', serif;
+    font-weight: 400;
+    line-height: 100px;
+    font-size: 89px;}
+
+.home-top-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.custom-btn-container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.custom-btn {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.custom-btn-fill {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    background: white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.custom-btn:hover {
+    background: white;
+    color: black;
+}
+.custom-btn-fill:hover {
+    border: 1px solid white;
+
+    background: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+}
+
+.homes-section {
+    width:100%;
+    padding: 60px 0;
+    color: black;
+    text-align: left;
+}
+
+.homes-section h2 {
+    font-family: 'Libre Caslon Display', serif;
+
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.sub-head h2 {
+    font-family: 'Libre Caslon Display', serif;
+
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+.inner-div{
+    left: 22%;
+    top: 37px;
+    position: absolute;
+}
+.rect-div{
+    top: -14%;
+    left: 11%;
+    position: absolute !important;
+}
+.more-text{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+.sub-head{
+    width: 100%;
+    display: flex
+;
+    justify-content: space-between;}
+.yellow-text-link{
+    color: orange; cursor: pointer;
+}
+.yellow-text{
+    font-family: 'Libre Caslon Display', serif;
+
+    font-size: 24px;
+    color: orange; 
+}
+.homes-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-card {
+    padding-top: 25px;
+    width: 30%;
+   
+}
+.home-card img {
+    height: 314px;
+    width: 100%;
+}
+.option-box:hover{
+    transform: scale(1.05);
+    z-index: 1;
+}
+
+.home-card h3 {
+    font-family: 'Libre Caslon Display', serif;
+
+    color: #1B1B1B;
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.home-card p {
+
+    font-size: 14px;
+    color:#7D7E7C;
+}
+.options-section {
+    width: 100%;
+    background-color: #596553; /* Greenish Background */
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+    font-family: 'Libre Caslon Display', serif;
+}
+
+.options-section h2 {
+    text-align: left;
+    font-family: 'Libre Caslon Display', serif;
+font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.options-container {
+    display: flex
+    ;
+        justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+.option-box {
+    transition: 0.3s;
+
+
+    background-color: white;
+    color: black;
+    padding: 30px 40px;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.option-box h3 {
+    font-family: 'Libre Caslon Display', serif;
+
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.option-box p {
+    margin: 0;
+    font-size: 16px;
+    color: #7D7E7C;
+}
+.amenities-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 65px;
+    background: #fff;
+}
+
+.amenities-content {
+    flex: 1;
+    max-width: 50%;
+}
+
+.amenities-content h2 {
+    text-align: left;
+    color: #1B1B1B;
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.amenities-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.amenity {
+    padding: 55px 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Libre Caslon Display', serif;
+    color: #8a702e; /* Gold/Brown Shade */
+}
+
+.amenity i {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.amenity:hover {
+    background-color: #5B5F4F; /* Green Background */
+    color: white;
+    padding: 55px 20px;
+   
+}
+.amenity.active {
+    background-color: #5B5F4F; /* Green Background */
+    color: white;
+    padding: 55px 20px;
+   
+}
+.amenities-inner-image {
+    margin-bottom: 20px;
+}
+
+.amenities-image {
+    flex: 1;
+    max-width: 50%;
+}
+
+.amenities-image img {
+    height: 700px;
+ width: 600px;
+    border-radius: 5px;
+}
+.fade-back{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+.luxury-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    padding: 40px 0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.luxury-image {
+    flex: 1;
+    max-width: 50%;
+}
+
+.luxury-image img {
+    height: 600px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.luxury-content {
+    text-align: left;
+    flex: 1;
+    max-width: 50%;
+    padding-left: 40px;
+}
+
+.luxury-content h2 {
+    color:#000;
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.luxury-content h3 {
+    color:#000;
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.luxury-content p {
+    font-size: 16px;
+    color:#7D7E7C;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    font-family: 'Libre Caslon Display', serif;
+
+    color: #DC9F37 !important; /* Gold/Brown Shade */
+}
+
+.read-more {
+    background-color: #596553;
+    color: white;
+    padding: 8px 27px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+
+.read-more:hover {
+    background-color: #46503B; /* Darker Green */
+}
+/* General Styles */
+.collage-section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.collage-section h2 {
+    color: #1B1B1B;
+    font-size: 48px;
+    margin-bottom: 35px;
+    font-family: 'Libre Caslon Display', serif;
+}
+
+/* Collage Layout */
+.collage {
+    display: flex;
+   
+    width: 100%;
+    overflow: hidden;
+}
+
+.collage-item {
+    /* flex: 1; */
+}
+.collage-item-overlay {
+    flex: 1;
+    position: relative;
+}
+
+.collage-img {
+    width: 100%;
+    height: 850px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.collage-img-sub {
+    width: 350px;
+    height: 850px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Overlay Effect for Text */
+.overlay {
+    position: absolute;
+    bottom: 28%;
+    left: 20%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 130px 40px;
+    border-radius: 5px;
+}
+
+.overlay p {
+    color: white;
+    font-size: 45px;
+    font-family: 'Libre Caslon Display', serif;
+    margin: 0;
+}
+/* General Styles */
+.testimonial-section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.testimonial-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.testimonial {
+    max-width: 700px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #596553;
+    margin: 5px 0;
+}
+
+.stars {
+    color: #DC9F37;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.testimonial-text {
+    font-size: 48px;
+    font-family: 'Libre Caslon Display', serif;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Arrows */
+.prev-btn, .next-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: gray;
+    transition: 0.3s;
+}
+
+.prev-btn:hover, .next-btn:hover {
+    color: black;
+}
+
+/* Dots */
+.dots {
+    margin-top: 10px;
+}
+
+.dot {
+    height: 8px;
+    width: 8px;
+    margin: 0 5px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.dot.active {
+    background-color: #DC9F37;
+    width: 10px;
+    height: 10px;
+}
+/* Footer Styling */
+footer {
+    width: 100%;
+    background-color: #596553; /* Dark greenish background */
+    color: white;
+    padding:45px 20px 45px 20px;
+    text-align: left;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 30px;
+}
+
+.footer-column h3 {
+    font-family: 'Libre Caslon Display', serif;
+
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.footer-column p, .footer-column ul {
+    text-align: justify;
+    font-size: 0.9rem;
+    color: #D8D8D7;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 15px;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #DC9F37;
+}
+
+/* Bottom Footer */
+.footer-bottom {
+    position: relative;
+    display: flex
+    ;
+        width: 100%;
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 10px 0;
+        justify-content: space-around;
+        align-items: center;
+}
+
+.footer-bottom .highlight {
+    color: #DC9F37;
+}
+
+.footer-bottom a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    top: -21%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #DC9F37;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50%;
+    padding: 4px 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.back-to-top:hover {
+    background-color: #c9a307;
+}
+
+
+
