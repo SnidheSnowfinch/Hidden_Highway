@@ -750,7 +750,7 @@ progress {
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 300px) {
   .container-sm, .container {
     max-width: 540px;
   }
@@ -1010,7 +1010,7 @@ progress {
   --bs-gutter-y: 3rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 300px) {
   .col-sm {
     flex: 1 0 0%;
   }

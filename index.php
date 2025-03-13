@@ -1,5 +1,5 @@
 <?php include 'includes/header.php' ?>
-        <div class="home-top-section">
+<div class="home-top-section">
         <div class="home-top-content">
             <p>WELCOME TO HIDDEN HIDEAWAY</p>
             <h1>Unwind In Paradise <br> At Our Premier Resort</h1>
@@ -53,33 +53,49 @@
         <div class="container">
             <h2>Provides options for all</h2>
             <div class="options-container">
-                <div class="option-box">
-                    <h3>Couples</h3>
-                    <p>2 guests</p>
+
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="option-box">
+                            <h3>Couples</h3>
+                            <p>2 guests</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="option-box">
+                            <h3>Small Families</h3>
+                            <p>3-8 guests</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="option-box">
+                            <h3>Big Families</h3>
+                            <p>9-14 guests</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-6">
+                        <div class="option-box">
+                            <h3>Large Groups</h3>
+                            <p>14+ guests</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="option-box">
-                    <h3>Small Families</h3>
-                    <p>3-8 guests</p>
-                </div>
-                <div class="option-box">
-                    <h3>Big Families</h3>
-                    <p>9-14 guests</p>
-                </div>
-                <div class="option-box">
-                    <h3>Large Groups</h3>
-                    <p>14+ guests</p>
-                </div>
+
+
+
             </div>
+           
         </div>
 
     </section>
 
-    <div class="container">
+    <div class="container amenities-container">
+        <h2>Our Amenities</h2>
+
         <section class="amenities-section">
 
 
             <div class="amenities-content">
-                <h2>Our Amenities</h2>
                 <div class="amenities-list">
                     <div class="amenity active">
                         <img class="amenities-inner-image" src="bootstrap/images/bed.webp" alt="">
@@ -165,47 +181,75 @@
     </div>
     <div class="container">
         <section class="luxury-section">
-            <div class="luxury-image">
-                <img src="bootstrap/images/demo-img.webp" alt="Luxury Comfort">
+            <div class="luxury-image position-relative">
+                <img class="luxury-image-img" src="bootstrap/images/demo-img.webp" alt="Luxury Comfort">
+                <div class="rect-div-luxury">
+                    <img src="bootstrap/images/Rectangle 94108.webp" alt="">
+                    <div class="inner-div"><img src="bootstrap/images/Rectangle 94109.webp" alt=""></div>
+                </div>
             </div>
             <div class="luxury-content">
                 <h2><span class="highlight">Luxury & Comfort</span></h2>
                 <h3>Our service always brings satisfactions</h3>
                 <p>
-                    Experience our resort’s luxurious services: indulge in rejuvenating spa treatments, gourmet dining at multiple restaurants, and exciting water sports. Explore guided tours, a modern fitness center, and relaxing swimming pools. Our personalized concierge ensures a seamless vacation, making every moment memorable.
+                    Experience our resort’s luxurious services: indulge in rejuvenating spa treatments, gourmet dining
+                    at multiple restaurants, and exciting water sports. Explore guided tours, a modern fitness center,
+                    and relaxing swimming pools. Our personalized concierge ensures a seamless vacation, making every
+                    moment memorable.
                 </p>
                 <button class="read-more">READ MORE</button>
             </div>
         </section>
-        
-    </div>
-    <section class="collage-section">
-        <h2>Explore Unforgettable Experiences</h2>
 
-        <div class="collage">
-            <div class="collage-item-overlay">
-                <img class="collage-img" src="bootstrap/images/col-img-1.webp" alt="Beach View Villas">
-                <div class="overlay">
-                    <p>Beach View Villas</p>
+    </div>
+    <div class="container-fluid p-0">
+        <section class="collage-section">
+            <h2>Explore Unforgettable Experiences</h2>
+
+            <div class="collage">
+                <div class="collage-item-overlay">
+                    <img class="collage-img" src="bootstrap/images/col-img-1.webp" alt="Beach View Villas">
+                    <div class="overlay">
+                        <p>Beach View Villas</p>
+                    </div>
+                </div>
+                <div class="d-flex">
+                    <div class="row row-width left-right-space">
+                        <div class="col-4 left-right-space">
+                            <div class="collage-item"><img class="collage-img-sub" src="bootstrap/images/col-img-2.webp"
+                                    alt="Modern House"></div>
+                        </div>
+                        <div class="col-4 left-right-space">
+                            <div class="collage-item"><img class="collage-img-sub" src="bootstrap/images/col-img-3.webp"
+                                    alt="Mountain Lake"></div>
+                        </div>
+                        <div class="col-4  left-right-space">
+                            <div class="collage-item"><img class="collage-img-sub" src="bootstrap/images/col-img-4.webp"
+                                    alt="Lake Dining"></div>
+                        </div>
+
+
+                    </div>
+
+
+
                 </div>
             </div>
-            <div class="collage-item"><img class="collage-img-sub" src="bootstrap/images/col-img-2.webp" alt="Modern House"></div>
-            <div class="collage-item"><img class="collage-img-sub" src="bootstrap/images/col-img-3.webp" alt="Mountain Lake"></div>
-            <div class="collage-item"><img class="collage-img-sub" src="bootstrap/images/col-img-4.webp" alt="Lake Dining"></div>
-        </div>
-    </section>
-    
+        </section>
+    </div>
+
+
 
     <section class="testimonial-section">
         <div class="testimonial-slider">
             <button class="prev-btn">←</button>
-    
+
             <div class="testimonial">
                 <img src="bootstrap/images/profile (1).webp" alt="User Image" class="profile-img">
                 <h4>Rohit Kumar, Mumbai</h4>
                 <div class="stars">★★★★★</div>
                 <p class="testimonial-text">
-                    Hidden Hideaway offers a luxurious and private retreat. Elegantly designed rooms, 
+                    Hidden Hideaway offers a luxurious and private retreat. Elegantly designed rooms,
                     top-notch amenities, and attentive service make it a perfect choice for an upscale getaway.
                 </p>
                 <div class="dots">
@@ -215,7 +259,7 @@
                     <span class="dot"></span>
                 </div>
             </div>
-    
+
             <button class="next-btn">→</button>
         </div>
     </section>

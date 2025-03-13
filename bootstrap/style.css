@@ -1,4 +1,4 @@
-  * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,20 +13,12 @@ body {
     color: white;
     text-align: center;
 }
-.logo img{
+
+.logo img {
     width: 106px;
 }
 
-.home-top-section {
-    width: 100%;
-    height: 110vh;
-    background: url('./images/home-bg.webp') no-repeat center center/cover;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .home-top-section::before {
     content: "";
@@ -38,17 +30,6 @@ body {
     background: rgba(0, 0, 0, 0.5);
 }
 
-.navbar {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 50px;
-    backdrop-filter: blur(5px); 
-    border-bottom: 1px solid rgb(54 49 49 / 15%);
-    z-index: 2;
-}
 
 .navbar a {
     color: #C8C8C8;
@@ -78,16 +59,7 @@ body {
     border-radius: 10px;
 }
 
-.home-top-content h1 {
-    font-family: 'Libre Caslon Display', serif;
-    font-weight: 400;
-    line-height: 100px;
-    font-size: 89px;}
 
-.home-top-content p {
-    font-size: 16px;
-    margin-bottom: 20px;
-}
 
 .custom-btn-container {
     margin-top: 60px;
@@ -96,27 +68,13 @@ body {
     gap: 15px;
 }
 
-.custom-btn {
-    text-decoration: none;
-    color: white;
-    padding: 10px 20px;
-    border: 1px solid white;
-    border-radius: 5px;
-    transition: 0.3s;
-}
-.custom-btn-fill {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    padding: 10px 20px;
-    background: white;
-    border-radius: 5px;
-    transition: 0.3s;
-}
+
 
 .custom-btn:hover {
     background: white;
     color: black;
 }
+
 .custom-btn-fill:hover {
     border: 1px solid white;
 
@@ -124,128 +82,30 @@ body {
     color: rgb(255, 255, 255);
 }
 
-.homes-section {
-    width:100%;
-    padding: 60px 0;
-    color: black;
-    text-align: left;
-}
 
-.homes-section h2 {
-    font-family: 'Libre Caslon Display', serif;
 
-    font-size: 48px;
-    margin-bottom: 10px;
-}
-.sub-head h2 {
-    font-family: 'Libre Caslon Display', serif;
 
-    font-size: 48px;
-    margin-bottom: 10px;
-}
-.inner-div{
-    left: 22%;
-    top: 37px;
-    position: absolute;
-}
-.rect-div{
-    top: -14%;
-    left: 11%;
-    position: absolute !important;
-}
-.more-text{
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 500;
-}
-.sub-head{
+.sub-head {
     width: 100%;
-    display: flex
-;
-    justify-content: space-between;}
-.yellow-text-link{
-    color: orange; cursor: pointer;
-}
-.yellow-text{
-    font-family: 'Libre Caslon Display', serif;
-
-    font-size: 24px;
-    color: orange; 
-}
-.homes-container {
     display: flex;
     justify-content: space-between;
 }
 
-.home-card {
-    padding-top: 25px;
-    width: 30%;
-   
+.yellow-text-link {
+    color: orange;
+    cursor: pointer;
 }
-.home-card img {
-    height: 314px;
-    width: 100%;
+
+.yellow-text {
+    font-family: 'Libre Caslon Display', serif;
+
+    font-size: 24px;
+    color: orange;
 }
-.option-box:hover{
+
+.option-box:hover {
     transform: scale(1.05);
     z-index: 1;
-}
-
-.home-card h3 {
-    font-family: 'Libre Caslon Display', serif;
-
-    color: #1B1B1B;
-    font-size: 36px;
-    margin: 10px 0;
-}
-
-.home-card p {
-
-    font-size: 14px;
-    color:#7D7E7C;
-}
-.options-section {
-    width: 100%;
-    background-color: #596553; /* Greenish Background */
-    padding: 50px 0;
-    text-align: center;
-    color: white;
-    font-family: 'Libre Caslon Display', serif;
-}
-
-.options-section h2 {
-    text-align: left;
-    font-family: 'Libre Caslon Display', serif;
-font-weight: 400;
-    font-size: 48px;
-    margin-bottom: 20px;
-}
-
-.options-container {
-    display: flex
-    ;
-        justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap; /* Ensures responsiveness */
-}
-
-.option-box {
-    transition: 0.3s;
-
-
-    background-color: white;
-    color: black;
-    padding: 30px 40px;
-    width: 300px;
-    text-align: left;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-}
-
-.option-box h3 {
-    font-family: 'Libre Caslon Display', serif;
-
-    font-size: 30px;
-    margin-bottom: 5px;
 }
 
 .option-box p {
@@ -253,135 +113,20 @@ font-weight: 400;
     font-size: 16px;
     color: #7D7E7C;
 }
-.amenities-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 65px;
-    background: #fff;
-}
 
-.amenities-content {
-    flex: 1;
-    max-width: 50%;
-}
-
-.amenities-content h2 {
-    text-align: left;
-    color: #1B1B1B;
-    font-family: 'Libre Caslon Display', serif;
-    font-size: 48px;
-    margin-bottom: 20px;
-}
-
-.amenities-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-.amenity {
-    padding: 55px 20px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    font-family: 'Libre Caslon Display', serif;
-    color: #8a702e; /* Gold/Brown Shade */
-}
-
-.amenity i {
-    font-size: 30px;
-    margin-bottom: 5px;
-}
-
-.amenity:hover {
-    background-color: #5B5F4F; /* Green Background */
-    color: white;
-    padding: 55px 20px;
-   
-}
-.amenity.active {
-    background-color: #5B5F4F; /* Green Background */
-    color: white;
-    padding: 55px 20px;
-   
-}
-.amenities-inner-image {
-    margin-bottom: 20px;
-}
-
-.amenities-image {
-    flex: 1;
-    max-width: 50%;
-}
-
-.amenities-image img {
-    height: 700px;
- width: 600px;
-    border-radius: 5px;
-}
-.fade-back{
+.fade-back {
+    margin-top: 20px;
     width: 100%;
     background-color: #F5F5F5;
 }
 
-.luxury-section {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-   
-    padding: 40px 0;
-    border-radius: 5px;
-    background-color: #fff;
-}
 
-.luxury-image {
-    flex: 1;
-    max-width: 50%;
-}
-
-.luxury-image img {
-    height: 600px;
-    width: 100%;
-    border-radius: 5px;
-}
-
-.luxury-content {
-    text-align: left;
-    flex: 1;
-    max-width: 50%;
-    padding-left: 40px;
-}
-
-.luxury-content h2 {
-    color:#000;
-    font-family: 'Libre Caslon Display', serif;
-    font-size: 48px;
-    font-weight: 400;
-    margin-bottom: 15px;
-}
-
-.luxury-content h3 {
-    color:#000;
-    font-family: 'Libre Caslon Display', serif;
-    font-size: 48px;
-    font-weight: 400;
-    margin-bottom: 15px;
-}
-
-.luxury-content p {
-    font-size: 16px;
-    color:#7D7E7C;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
 
 .highlight {
     font-family: 'Libre Caslon Display', serif;
 
-    color: #DC9F37 !important; /* Gold/Brown Shade */
+    color: #DC9F37 !important;
+    /* Gold/Brown Shade */
 }
 
 .read-more {
@@ -395,98 +140,13 @@ font-weight: 400;
 }
 
 .read-more:hover {
-    background-color: #46503B; /* Darker Green */
+    background-color: #46503B;
+    /* Darker Green */
 }
+
 /* General Styles */
-.collage-section {
-    text-align: center;
-    padding: 40px 0;
-}
 
-.collage-section h2 {
-    color: #1B1B1B;
-    font-size: 48px;
-    margin-bottom: 35px;
-    font-family: 'Libre Caslon Display', serif;
-}
-
-/* Collage Layout */
-.collage {
-    display: flex;
-   
-    width: 100%;
-    overflow: hidden;
-}
-
-.collage-item {
-    /* flex: 1; */
-}
-.collage-item-overlay {
-    flex: 1;
-    position: relative;
-}
-
-.collage-img {
-    width: 100%;
-    height: 850px;
-    object-fit: cover;
-    border-radius: 5px;
-}
-.collage-img-sub {
-    width: 350px;
-    height: 850px;
-    object-fit: cover;
-    border-radius: 5px;
-}
-
-/* Overlay Effect for Text */
-.overlay {
-    position: absolute;
-    bottom: 28%;
-    left: 20%;
-    background: rgba(0, 0, 0, 0.5);
-    padding: 130px 40px;
-    border-radius: 5px;
-}
-
-.overlay p {
-    color: white;
-    font-size: 45px;
-    font-family: 'Libre Caslon Display', serif;
-    margin: 0;
-}
 /* General Styles */
-.testimonial-section {
-    text-align: center;
-    padding: 50px 0;
-}
-
-.testimonial-slider {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 80px;
-}
-
-.testimonial {
-    max-width: 700px;
-    text-align: center;
-}
-
-.profile-img {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    margin-bottom: 10px;
-}
-
-.testimonial h4 {
-    font-size: 16px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #596553;
-    margin: 5px 0;
-}
 
 .stars {
     color: #DC9F37;
@@ -494,15 +154,9 @@ font-weight: 400;
     margin: 5px 0;
 }
 
-.testimonial-text {
-    font-size: 48px;
-    font-family: 'Libre Caslon Display', serif;
-    color: #333;
-    line-height: 1.5;
-}
-
 /* Arrows */
-.prev-btn, .next-btn {
+.prev-btn,
+.next-btn {
     background: none;
     border: none;
     font-size: 24px;
@@ -511,7 +165,8 @@ font-weight: 400;
     transition: 0.3s;
 }
 
-.prev-btn:hover, .next-btn:hover {
+.prev-btn:hover,
+.next-btn:hover {
     color: black;
 }
 
@@ -535,14 +190,8 @@ font-weight: 400;
     width: 10px;
     height: 10px;
 }
+
 /* Footer Styling */
-footer {
-    width: 100%;
-    background-color: #596553; /* Dark greenish background */
-    color: white;
-    padding:45px 20px 45px 20px;
-    text-align: left;
-}
 
 .footer-container {
     display: flex;
@@ -552,25 +201,11 @@ footer {
     flex-wrap: wrap;
 }
 
-.footer-column {
-    flex: 1;
-    min-width: 200px;
-    margin: 30px;
+.left-right-space {
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
-.footer-column h3 {
-    font-family: 'Libre Caslon Display', serif;
-
-    font-size: 30px;
-    font-weight: 400;
-    margin-bottom: 30px;
-}
-
-.footer-column p, .footer-column ul {
-    text-align: justify;
-    font-size: 0.9rem;
-    color: #D8D8D7;
-}
 
 .footer-column ul {
     list-style: none;
@@ -592,18 +227,7 @@ footer {
 }
 
 /* Bottom Footer */
-.footer-bottom {
-    position: relative;
-    display: flex
-    ;
-        width: 100%;
-        text-align: center;
-        background-color: black;
-        color: white;
-        padding: 10px 0;
-        justify-content: space-around;
-        align-items: center;
-}
+
 
 .footer-bottom .highlight {
     color: #DC9F37;
@@ -635,9 +259,2426 @@ footer {
     transition: 0.3s;
 }
 
+.reservation-btn:hover {
+    background-color: white;
+    color: black;
+}
+
 .back-to-top:hover {
     background-color: #c9a307;
 }
 
+.social-icons {
+    display: flex;
+}
+
+.social-icons i {
+    margin: 0 14px 0 2px;
+    font-size: 20px;
+
+    cursor: pointer;
+}
+
+.social-icons i:hover {
+    color: #c9a307;
+}
+
+.footer-img-div {
+    right: 3%;
+    top: -1px;
+    position: absolute;
+}
+
+@media (max-width: 767px) {
+    .row-width {
+        width: 100%;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 15px;
+        backdrop-filter: blur(5px);
+        border-bottom: 1px solid rgb(54 49 49 / 15%);
+        z-index: 5;
+    }
+
+    .phone-footer-text {
+        flex: 1;
+
+        margin: 20px;
+        min-width: 250px !important;
+
+    }
+
+    .footer-bottom {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 25px 0;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer-column {
+        min-width: 120px;
+        flex: 1;
+
+        margin: 20px;
+    }
+
+    footer {
+        width: 100%;
+        background-color: #596553;
+        /* Dark greenish background */
+        color: white;
+        padding: 15px 20px 45px 10px;
+        text-align: left;
+    }
+
+    .footer-column h3 {
+        font-family: 'Libre Caslon Display', serif;
+
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    .footer-column p,
+    .footer-column ul {
+        text-align: justify;
+        font-size: 12px;
+        color: #D8D8D7;
+    }
+
+    .phone-footer-text h3 {
+        font-family: 'Libre Caslon Display', serif;
+
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    .phone-footer-text p,
+    .phone-footer-text ul {
+        text-align: justify;
+        font-size: 12px;
+        color: #D8D8D7;
+    }
 
 
+    .testimonial-section {
+        text-align: center;
+        padding: 50px 5px;
+    }
+
+    .testimonial-slider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .testimonial {
+        max-width: 700px;
+        text-align: center;
+    }
+
+    .profile-img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    .testimonial h4 {
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #596553;
+        margin: 5px 0;
+    }
+
+
+
+    .testimonial-text {
+        font-size: 20px;
+        font-family: 'Libre Caslon Display', serif;
+        color: #333;
+    }
+
+    .collage-section {
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    .collage-section h2 {
+        color: #1B1B1B;
+        font-size: 24px;
+        margin-bottom: 35px;
+        font-family: 'Libre Caslon Display', serif;
+    }
+
+    /* Collage Layout */
+    .collage {
+
+
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+    .collage-item-overlay {
+        flex: 1;
+        position: relative;
+    }
+
+    .collage-img {
+        width: -webkit-fill-available;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .collage-img-sub {
+        width: -webkit-fill-available;
+        /* width: 135px; */
+        height: 138px;
+        object-fit: cover;
+    }
+
+    /* Overlay Effect for Text */
+    .overlay {
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        position: absolute;
+        bottom: -30%;
+        left: 50%;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 72px 40px;
+        border-radius: 5px;
+    }
+
+    .overlay p {
+        color: white;
+        font-size: 20px;
+        font-family: 'Libre Caslon Display', serif;
+        margin: 0;
+    }
+
+    .read-more {
+        background-color: #596553;
+        color: white;
+        padding: 7px 18px;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    .luxury-section {
+
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 40px 0;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+    .luxury-image {
+        flex: 1;
+
+    }
+
+    .luxury-image-img {
+        height: 350px;
+        width: -webkit-fill-available;
+    }
+
+    .luxury-content {
+        margin-top: 15px;
+        text-align: left;
+        flex: 1;
+    }
+
+    .luxury-content h2 {
+        color: #000;
+        font-family: 'Libre Caslon Display', serif;
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+
+    .luxury-content h3 {
+        color: #000;
+        font-family: 'Libre Caslon Display', serif;
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+
+    .luxury-content p {
+        font-size: 16px;
+        color: #7D7E7C;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .fade-back {
+        margin-top: 20px;
+    }
+
+    .homes-section {
+        width: 100%;
+        padding: 30px 0;
+        color: black;
+        text-align: left;
+    }
+
+    .amenities-section {
+        display: flex;
+        justify-content: space-between;
+
+        background: #fff;
+        flex-direction: column-reverse;
+    }
+
+    .amenities-container {
+        padding-top: 65px;
+    }
+
+    .amenities-content {
+        flex: 1;
+
+    }
+
+    .amenities-content p {
+        margin: 0;
+        font-size: 12px;
+    }
+
+    .amenities-container h2 {
+        text-align: left;
+        color: #1B1B1B;
+        font-family: 'Libre Caslon Display', serif;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .amenities-list {
+        justify-items: center;
+        margin-top: 15px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .amenity {
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        border: 1px solid #E8E8E8;
+        padding: 10px 20px;
+        border-radius: 8px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: 'Libre Caslon Display', serif;
+        color: #8a702e;
+        /* Gold/Brown Shade */
+    }
+
+    .amenity i {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .amenity:hover {
+        background-color: #5B5F4F;
+        /* Green Background */
+        color: white;
+        padding: 10px 20px;
+
+    }
+
+    .amenity.active {
+        border-radius: 8px;
+        background-color: #5B5F4F;
+        /* Green Background */
+        color: white;
+        padding: 10px 20px;
+
+    }
+
+    .amenities-inner-image {
+        width: 27px;
+        margin-bottom: 10px;
+    }
+
+    .amenities-image {
+        flex: 1;
+    }
+
+    .amenities-image img {
+        object-fit: cover;
+        width: -webkit-fill-available;
+        height: 150px;
+    }
+
+    .options-section h2 {
+        text-align: left;
+        font-family: 'Libre Caslon Display', serif;
+        font-weight: 400;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .option-box {
+        margin-bottom: 15px;
+        transition: 0.3s;
+        background-color: white;
+        color: black;
+        padding: 22px 16px;
+        text-align: left;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .option-box h3 {
+        font-family: 'Libre Caslon Display', serif;
+
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .home-card h3 {
+        font-family: 'Libre Caslon Display', serif;
+        color: #1B1B1B;
+        font-size: 24px;
+        margin: 10px 0;
+    }
+
+    .home-card p {
+
+        font-size: 12px;
+        color: #7D7E7C;
+    }
+
+    .options-section {
+        width: 100%;
+        background-color: #596553;
+        /* Greenish Background */
+        padding: 35px 0;
+        text-align: center;
+        color: white;
+        font-family: 'Libre Caslon Display', serif;
+    }
+
+
+    .home-card {
+        padding-top: 25px;
+        width: 100%;
+
+    }
+
+    .home-card img {
+        height: 215px;
+        width: 100%;
+    }
+
+    .homes-section h2 {
+        font-family: 'Libre Caslon Display', serif;
+
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+
+    .sub-head h2 {
+        font-family: 'Libre Caslon Display', serif;
+
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .sub-head p {
+
+        font-size: 12px;
+    }
+
+    .inner-div {
+        left: 22%;
+        top: 37px;
+        position: absolute;
+    }
+
+    .rect-div {
+        top: -18%;
+        left: 74%;
+        position: absolute !important;
+    }
+
+    .rect-div-luxury {
+        top: -12%;
+        left: 5%;
+        position: absolute !important;
+    }
+
+    .more-text {
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .home-top-section {
+        width: 100%;
+        height: 500px;
+        background: url('./images/home-bg.webp') no-repeat center center/cover;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .custom-btn {
+        font-size: 13px;
+        text-decoration: none;
+        color: white;
+        padding: 6px 12px;
+        border: 1px solid white;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+    .custom-btn-fill {
+        font-size: 13px;
+
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        padding: 6px 12px;
+        background: white;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+    .home-top-content h1 {
+        font-family: 'Libre Caslon Display', serif;
+        font-weight: 400;
+        font-size: 30px;
+    }
+
+    .home-top-content p {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 50px;
+        backdrop-filter: blur(5px);
+        border-bottom: 1px solid rgb(54 49 49 / 15%);
+        z-index: 2;
+    }
+
+    .phone-footer-text {
+        flex: 1;
+
+        margin: 20px;
+        min-width: 350px !important;
+
+    }
+
+    .footer-bottom {
+        position: relative;
+        display: flex;
+        width: 100%;
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 10px 0;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer-column {
+        flex: 1;
+        min-width: 230px;
+        margin: 30px;
+    }
+
+    footer {
+        width: 100%;
+        background-color: #596553;
+        /* Dark greenish background */
+        color: white;
+        padding: 45px 20px 45px 20px;
+        text-align: left;
+    }
+
+    .footer-column h3 {
+        font-family: 'Libre Caslon Display', serif;
+
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    .footer-column p,
+    .footer-column ul {
+        text-align: justify;
+        font-size: 0.9rem;
+        color: #D8D8D7;
+    }
+
+    .phone-footer-text h3 {
+        font-family: 'Libre Caslon Display', serif;
+
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    .phone-footer-text p,
+    .phone-footer-text ul {
+        text-align: justify;
+        font-size: 0.9rem;
+        color: #D8D8D7;
+    }
+
+    .testimonial-section {
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .testimonial-slider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    .testimonial {
+        max-width: 700px;
+        text-align: center;
+    }
+
+    .profile-img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    .testimonial h4 {
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #596553;
+        margin: 5px 0;
+    }
+
+
+
+    .testimonial-text {
+        font-size: 38px;
+        font-family: 'Libre Caslon Display', serif;
+        color: #333;
+        line-height: 1.5;
+    }
+
+    .collage-section {
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    .collage-section h2 {
+        color: #1B1B1B;
+        font-size: 24px;
+        margin-bottom: 35px;
+        font-family: 'Libre Caslon Display', serif;
+    }
+
+    /* Collage Layout */
+    .collage {
+
+
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+    .collage-item-overlay {
+        flex: 1;
+        position: relative;
+    }
+
+    .collage-img {
+        width: -webkit-fill-available;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .collage-img-sub {
+        width: -webkit-fill-available;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    /* Overlay Effect for Text */
+    .overlay {
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        position: absolute;
+        bottom: -1%;
+        left: 50%;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 52px 35px;
+        border-radius: 5px;
+    }
+
+    .overlay p {
+        color: white;
+        font-size: 35px;
+        font-family: 'Libre Caslon Display', serif;
+        margin: 0;
+    }
+
+    .luxury-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 50px 0;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+    .luxury-image {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    .luxury-image-img {
+        height: 600px;
+        width: 100%;
+    }
+
+    .luxury-content {
+        text-align: left;
+        flex: 1;
+        max-width: 50%;
+        padding-left: 40px;
+    }
+
+    .luxury-content h2 {
+        color: #000;
+        font-family: 'Libre Caslon Display', serif;
+        font-size: 38px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+
+    .luxury-content h3 {
+        color: #000;
+        font-family: 'Libre Caslon Display', serif;
+        font-size: 38px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+
+    .luxury-content p {
+        font-size: 16px;
+        color: #7D7E7C;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .homes-section {
+        width: 100%;
+        padding: 60px 0;
+        color: black;
+        text-align: left;
+    }
+
+    .amenities-section {
+        display: flex;
+        justify-content: space-between;
+
+        background: #fff;
+        flex-direction: column-reverse;
+    }
+
+    .amenities-container {
+        padding-top: 65px;
+    }
+
+    .amenities-content {
+        flex: 1;
+
+    }
+
+    .amenities-content p {
+        margin: 0;
+        font-size: 16px;
+    }
+
+    .amenities-container h2 {
+        text-align: left;
+        color: #1B1B1B;
+        font-family: 'Libre Caslon Display', serif;
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+
+    .amenities-list {
+        justify-items: center;
+        margin-top: 15px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .row-width {
+        width: 100%;
+    }
+
+    .amenity {
+        justify-content: center;
+        width: 150px;
+        height: 150px;
+        border: 1px solid #E8E8E8;
+        padding: 10px 20px;
+        border-radius: 8px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: 'Libre Caslon Display', serif;
+        color: #8a702e;
+        /* Gold/Brown Shade */
+    }
+
+    .amenity i {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .amenity:hover {
+        background-color: #5B5F4F;
+        /* Green Background */
+        color: white;
+        padding: 10px 20px;
+
+    }
+
+    .amenity.active {
+        border-radius: 8px;
+        background-color: #5B5F4F;
+        /* Green Background */
+        color: white;
+        padding: 10px 20px;
+
+    }
+
+    .amenities-inner-image {
+        width: 40px;
+        margin-bottom: 10px;
+    }
+
+    .amenities-image {
+        flex: 1;
+    }
+
+    .amenities-image img {
+        object-fit: cover;
+        width: -webkit-fill-available;
+        height: 250px;
+    }
+
+    .options-section h2 {
+        text-align: left;
+        font-family: 'Libre Caslon Display', serif;
+        font-weight: 400;
+        font-size: 38px;
+        margin-bottom: 20px;
+    }
+
+
+
+    .option-box {
+        transition: 0.3s;
+
+
+        background-color: white;
+        color: black;
+        padding: 18px 15px;
+
+        text-align: left;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        /* Subtle shadow */
+    }
+
+    .option-box h3 {
+        font-family: 'Libre Caslon Display', serif;
+
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .home-card h3 {
+        font-family: 'Libre Caslon Display', serif;
+
+        color: #1B1B1B;
+        font-size: 30px;
+        margin: 10px 0;
+    }
+
+    .home-card p {
+
+        font-size: 14px;
+        color: #7D7E7C;
+    }
+
+    .options-section {
+        width: 100%;
+        background-color: #596553;
+        /* Greenish Background */
+        padding: 50px 0;
+        text-align: center;
+        color: white;
+        font-family: 'Libre Caslon Display', serif;
+    }
+
+    .homes-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .home-card {
+        padding-top: 25px;
+        width: 30%;
+
+    }
+
+    .home-card img {
+        object-fit: cover;
+        height: 170px;
+        width: 100%;
+    }
+
+    .homes-section h2 {
+        font-family: 'Libre Caslon Display', serif;
+
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+
+    .sub-head h2 {
+        font-family: 'Libre Caslon Display', serif;
+
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+
+    .inner-div {
+        left: 22%;
+        top: 37px;
+        position: absolute;
+    }
+
+    .rect-div {
+        top: -14%;
+        left: 11%;
+        position: absolute !important;
+    }
+
+    .rect-div-luxury {
+        top: -8%;
+        left: 5%;
+        position: absolute !important;
+    }
+
+    .more-text {
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .home-top-section {
+        width: 100%;
+        height: 50vh;
+        background: url('./images/home-bg.webp') no-repeat center center/cover;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .custom-btn {
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        border: 1px solid white;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+    .custom-btn-fill {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        padding: 10px 20px;
+        background: white;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+    .home-top-content h1 {
+        font-family: 'Libre Caslon Display', serif;
+        font-weight: 400;
+        line-height: 30px;
+        font-size: 50px;
+    }
+
+    .home-top-content p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+    .navbar a {
+        color: #C8C8C8;
+        text-decoration: none;
+        margin: 3px 15px;
+        font-size: 14px;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 50px;
+        backdrop-filter: blur(5px);
+        border-bottom: 1px solid rgb(54 49 49 / 15%);
+        z-index: 5;
+    }
+
+    .logo img {
+        width: 86px !important;
+    }
+
+    .phone-footer-text {
+        flex: 1;
+
+        margin: 20px;
+        min-width: 350px !important;
+
+    }
+
+    .phone-footer-text h3 {
+        font-family: 'Libre Caslon Display', serif;
+
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    .phone-footer-text p,
+    .phone-footer-text ul {
+        text-align: justify;
+        font-size: 0.9rem;
+        color: #D8D8D7;
+    }
+
+    .footer-bottom {
+        position: relative;
+        display: flex;
+        width: 100%;
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 10px 0;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer-column {
+        flex: 1;
+        min-width: 150px;
+        margin: 20px;
+    }
+
+    footer {
+        width: 100%;
+        background-color: #596553;
+        /* Dark greenish background */
+        color: white;
+        padding: 15px 20px 15px 20px;
+        text-align: left;
+    }
+
+    .footer-column h3 {
+        font-family: 'Libre Caslon Display', serif;
+
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    .footer-column p,
+    .footer-column ul {
+        text-align: justify;
+        font-size: 0.9rem;
+        color: #D8D8D7;
+    }
+
+    .testimonial-section {
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .testimonial-slider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    .testimonial {
+        max-width: 700px;
+        text-align: center;
+    }
+
+    .profile-img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    .testimonial h4 {
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #596553;
+        margin: 5px 0;
+    }
+
+
+
+    .testimonial-text {
+        font-size: 30px;
+        font-family: 'Libre Caslon Display', serif;
+        color: #333;
+        line-height: 1.5;
+    }
+
+    .collage-section {
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    .collage-section h2 {
+        color: #1B1B1B;
+        font-size: 30px;
+        margin-bottom: 35px;
+        font-family: 'Libre Caslon Display', serif;
+    }
+
+    /* Collage Layout */
+    .collage {
+        display: flex;
+
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+    .collage-item-overlay {
+        flex: 1;
+        position: relative;
+    }
+
+    .collage-img {
+        width: 100%;
+        height: 600px;
+        object-fit: cover;
+    }
+
+    .collage-img-sub {
+        width: 230px;
+        height: 600px;
+        object-fit: cover;
+    }
+
+    /* Overlay Effect for Text */
+    .overlay {
+        position: absolute;
+        bottom: 28%;
+        left: 25%;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 130px 40px;
+        border-radius: 5px;
+    }
+
+    .overlay p {
+        color: white;
+        font-size: 30px;
+        font-family: 'Libre Caslon Display', serif;
+        margin: 0;
+    }
+
+    .luxury-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 50px 0;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+    .luxury-image {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    .luxury-image-img {
+        object-fit: cover;
+        height: 455px;
+        width: 100%;
+    }
+
+    .read-more {
+        background-color: #596553;
+        color: white;
+        padding: 4px 23px !important;
+        border: none;
+        cursor: pointer;
+        font-size: 14px !important;
+    }
+
+    .luxury-content {
+        text-align: left;
+        flex: 1;
+        max-width: 50%;
+        padding-left: 40px;
+    }
+
+    .luxury-content h2 {
+        color: #000;
+        font-family: 'Libre Caslon Display', serif;
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+
+    .luxury-content h3 {
+        color: #000;
+        font-family: 'Libre Caslon Display', serif;
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+
+    .luxury-content p {
+        font-size: 16px;
+        color: #7D7E7C;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .homes-section {
+        width: 100%;
+        padding: 30px 0;
+        color: black;
+        text-align: left;
+    }
+
+    .amenities-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #fff;
+    }
+
+    .amenities-container {
+        padding-top: 35px;
+    }
+
+    .amenities-content {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    .amenities-container h2 {
+        text-align: left;
+        color: #1B1B1B;
+        font-family: 'Libre Caslon Display', serif;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .amenities-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .amenity {
+        font-size: 14px;
+        justify-content: space-evenly;
+        padding: 20px 20px;
+        height: 120px;
+        width: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: 'Libre Caslon Display', serif;
+        color: #8a702e;
+        /* Gold/Brown Shade */
+    }
+
+    .amenity i {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .amenity:hover {
+        background-color: #5B5F4F;
+        /* Green Background */
+        color: white;
+
+    }
+
+    .amenity.active {
+        background-color: #5B5F4F;
+        /* Green Background */
+        color: white;
+
+    }
+
+    .amenities-inner-image {
+        width: 25px;
+        margin-bottom: 10px;
+    }
+
+    .amenities-image {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    .amenities-image img {
+        height: 430px;
+        width: 500px;
+        border-radius: 5px;
+    }
+
+    .options-section h2 {
+        text-align: left;
+        font-family: 'Libre Caslon Display', serif;
+        font-weight: 400;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+
+    .option-box {
+        transition: 0.3s;
+
+
+        background-color: white;
+        color: black;
+        padding: 30px 40px;
+        width: 250px;
+        text-align: left;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        /* Subtle shadow */
+    }
+
+    .option-box h3 {
+        font-family: 'Libre Caslon Display', serif;
+
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+    .home-card h3 {
+        font-family: 'Libre Caslon Display', serif;
+
+        color: #1B1B1B;
+        font-size: 30px;
+        margin: 10px 0;
+    }
+
+    .home-card p {
+
+        font-size: 14px;
+        color: #7D7E7C;
+    }
+
+    .options-section {
+        width: 100%;
+        background-color: #596553;
+        /* Greenish Background */
+        padding: 50px 0;
+        text-align: center;
+        color: white;
+        font-family: 'Libre Caslon Display', serif;
+    }
+
+    .homes-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .home-card {
+        padding-top: 25px;
+        width: 30%;
+
+    }
+
+    .home-card img {
+        height: 200px;
+        width: 100%;
+    }
+
+    .homes-section h2 {
+        font-family: 'Libre Caslon Display', serif;
+
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .sub-head h2 {
+        font-family: 'Libre Caslon Display', serif;
+
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .inner-div {
+        left: 22%;
+        top: 37px;
+        position: absolute;
+    }
+
+    .rect-div {
+        top: -15%;
+        left: 11%;
+        position: absolute !important;
+    }
+
+    .rect-div-luxury {
+        top: -10%;
+        left: 5%;
+        position: absolute !important;
+    }
+
+    .more-text {
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .home-top-section {
+        width: 100%;
+        height: 110vh;
+        background: url('./images/home-bg.webp') no-repeat center center/cover;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .custom-btn {
+        font-size: 14px;
+        text-decoration: none;
+        color: white;
+        padding: 5px 20px;
+        border: 1px solid white;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+    .custom-btn-fill {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        padding: 5px 20px;
+        background: white;
+        border-radius: 5px;
+        transition: 0.3s;
+        font-size: 14px;
+    }
+
+    .home-top-content h1 {
+        font-family: 'Libre Caslon Display', serif;
+        font-weight: 400;
+        line-height: 40px;
+        font-size: 50px;
+    }
+
+    .home-top-content p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1920px) {
+    .navbar {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 50px;
+        backdrop-filter: blur(5px);
+        border-bottom: 1px solid rgb(54 49 49 / 15%);
+        z-index: 2;
+    }
+
+    .phone-footer-text {
+        flex: 1;
+
+        margin: 20px;
+        min-width: 250px !important;
+
+    }
+
+    .phone-footer-text h3 {
+        font-family: 'Libre Caslon Display', serif;
+
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    .phone-footer-text p,
+    .phone-footer-text ul {
+        text-align: justify;
+        font-size: 0.9rem;
+        color: #D8D8D7;
+    }
+
+    .footer-column {
+        flex: 1;
+        min-width: 160px;
+        margin: 30px;
+    }
+
+    .footer-bottom {
+        position: relative;
+        display: flex;
+        width: 100%;
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 10px 0;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    footer {
+        width: 100%;
+        background-color: #596553;
+        /* Dark greenish background */
+        color: white;
+        padding: 45px 20px 45px 20px;
+        text-align: left;
+    }
+
+    .footer-column h3 {
+        font-family: 'Libre Caslon Display', serif;
+
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    .footer-column p,
+    .footer-column ul {
+        text-align: justify;
+        font-size: 0.9rem;
+        color: #D8D8D7;
+    }
+
+    .testimonial-section {
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .testimonial-slider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    .testimonial {
+        max-width: 700px;
+        text-align: center;
+    }
+
+    .profile-img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    .testimonial h4 {
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #596553;
+        margin: 5px 0;
+    }
+
+
+
+    .testimonial-text {
+        font-size: 48px;
+        font-family: 'Libre Caslon Display', serif;
+        color: #333;
+        line-height: 1.5;
+    }
+
+    .collage-section {
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    .collage-section h2 {
+        color: #1B1B1B;
+        font-size: 48px;
+        margin-bottom: 35px;
+        font-family: 'Libre Caslon Display', serif;
+    }
+
+    /* Collage Layout */
+    .collage {
+        display: flex;
+
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+    .collage-item-overlay {
+        flex: 1;
+        position: relative;
+    }
+
+    .collage-img {
+        width: 100%;
+        height: 850px;
+        object-fit: cover;
+    }
+
+    .collage-img-sub {
+        width: 350px;
+        height: 850px;
+        object-fit: cover;
+    }
+
+    /* Overlay Effect for Text */
+    .overlay {
+        position: absolute;
+        bottom: 28%;
+        left: 20%;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 130px 40px;
+        border-radius: 5px;
+    }
+
+    .overlay p {
+        color: white;
+        font-size: 45px;
+        font-family: 'Libre Caslon Display', serif;
+        margin: 0;
+    }
+
+    .luxury-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 50px 0;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+    .luxury-image {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    .luxury-image-img {
+        height: 600px;
+        width: 100%;
+    }
+
+    .luxury-content {
+        text-align: left;
+        flex: 1;
+        max-width: 50%;
+        padding-left: 40px;
+    }
+
+    .luxury-content h2 {
+        color: #000;
+        font-family: 'Libre Caslon Display', serif;
+        font-size: 48px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+
+    .luxury-content h3 {
+        color: #000;
+        font-family: 'Libre Caslon Display', serif;
+        font-size: 48px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+
+    .luxury-content p {
+        font-size: 16px;
+        color: #7D7E7C;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .homes-section {
+        width: 100%;
+        padding: 60px 0;
+        color: black;
+        text-align: left;
+    }
+
+    .amenities-container {
+        padding-top: 65px;
+    }
+
+    .amenities-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #fff;
+    }
+
+    .amenities-content {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    .amenities-container h2 {
+        text-align: left;
+        color: #1B1B1B;
+        font-family: 'Libre Caslon Display', serif;
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    .amenities-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .amenity {
+      width: 200px;
+      height: 200px;
+        padding: 55px 20px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: 'Libre Caslon Display', serif;
+        color: #8a702e;
+        /* Gold/Brown Shade */
+    }
+
+    .amenity i {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .amenity:hover {
+        background-color: #5B5F4F;
+        /* Green Background */
+        color: white;
+
+    }
+
+    .amenity.active {
+        background-color: #5B5F4F;
+        /* Green Background */
+        color: white;
+
+    }
+
+    .amenities-inner-image {
+        margin-bottom: 20px;
+    }
+
+    .amenities-image {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    .amenities-image img {
+        height: 700px;
+        width: 600px;
+        border-radius: 5px;
+    }
+
+    .options-section h2 {
+        text-align: left;
+        font-family: 'Libre Caslon Display', serif;
+        font-weight: 400;
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+
+
+    .option-box {
+        transition: 0.3s;
+
+
+        background-color: white;
+        color: black;
+        padding: 30px 40px;
+        width: 300px;
+        text-align: left;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        /* Subtle shadow */
+    }
+
+    .option-box h3 {
+        font-family: 'Libre Caslon Display', serif;
+
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .home-card h3 {
+        font-family: 'Libre Caslon Display', serif;
+
+        color: #1B1B1B;
+        font-size: 36px;
+        margin: 10px 0;
+    }
+
+    .home-card p {
+
+        font-size: 14px;
+        color: #7D7E7C;
+    }
+
+    .options-section {
+        width: 100%;
+        background-color: #596553;
+        /* Greenish Background */
+        padding: 50px 0;
+        text-align: center;
+        color: white;
+        font-family: 'Libre Caslon Display', serif;
+    }
+
+    .homes-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .home-card {
+        padding-top: 25px;
+        width: 30%;
+
+    }
+
+    .home-card img {
+        height: 314px;
+        width: 100%;
+    }
+
+    .homes-section h2 {
+        font-family: 'Libre Caslon Display', serif;
+
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+
+    .sub-head h2 {
+        font-family: 'Libre Caslon Display', serif;
+
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+
+    .inner-div {
+        left: 22%;
+        top: 37px;
+        position: absolute;
+    }
+
+    .rect-div {
+        top: -14%;
+        left: 11%;
+        position: absolute !important;
+    }
+
+    .rect-div-luxury {
+        top: -8%;
+        left: 5%;
+        position: absolute !important;
+    }
+
+    .more-text {
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .home-top-section {
+        width: 100%;
+        height: 110vh;
+        background: url('./images/home-bg.webp') no-repeat center center/cover;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .custom-btn {
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        border: 1px solid white;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+    .custom-btn-fill {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        padding: 10px 20px;
+        background: white;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+    .home-top-content h1 {
+        font-family: 'Libre Caslon Display', serif;
+        font-weight: 400;
+        line-height: 100px;
+        font-size: 89px;
+    }
+
+    .home-top-content p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 1921px) {
+    .navbar {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 50px;
+        backdrop-filter: blur(5px);
+        border-bottom: 1px solid rgb(54 49 49 / 15%);
+        z-index: 2;
+    }
+
+    .phone-footer-text {
+        flex: 1;
+
+        margin: 20px;
+        min-width: 250px !important;
+
+    }
+
+    .footer-bottom {
+        position: relative;
+        display: flex;
+        width: 100%;
+        text-align: center;
+        background-color: black;
+        color: white;
+        padding: 10px 0;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer-column {
+        flex: 1;
+        min-width: 160px;
+        margin: 30px;
+    }
+
+    footer {
+        width: 100%;
+        background-color: #596553;
+        color: white;
+        padding: 45px 20px 45px 20px;
+        text-align: left;
+    }
+
+    .footer-column h3 {
+        font-family: 'Libre Caslon Display', serif;
+
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    .footer-column p,
+    .footer-column ul {
+        text-align: justify;
+        font-size: 0.9rem;
+        color: #D8D8D7;
+    }
+
+    .phone-footer-text h3 {
+        font-family: 'Libre Caslon Display', serif;
+
+        font-size: 30px;
+        font-weight: 400;
+        margin-bottom: 30px;
+    }
+
+    .phone-footer-text p,
+    .phone-footer-text ul {
+        text-align: justify;
+        font-size: 0.9rem;
+        color: #D8D8D7;
+    }
+
+    .testimonial-section {
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .testimonial-slider {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    .testimonial {
+        max-width: 700px;
+        text-align: center;
+    }
+
+    .profile-img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    .testimonial h4 {
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: #596553;
+        margin: 5px 0;
+    }
+
+
+
+    .testimonial-text {
+        font-size: 48px;
+        font-family: 'Libre Caslon Display', serif;
+        color: #333;
+        line-height: 1.5;
+    }
+
+    .collage-section {
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    .collage-section h2 {
+        color: #1B1B1B;
+        font-size: 48px;
+        margin-bottom: 35px;
+        font-family: 'Libre Caslon Display', serif;
+    }
+
+    /* Collage Layout */
+    .collage {
+        display: flex;
+
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+    .collage-item-overlay {
+        flex: 1;
+        position: relative;
+    }
+
+    .collage-img {
+        width: 100%;
+        height: 850px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    .collage-img-sub {
+        width: 350px;
+        height: 850px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+
+    /* Overlay Effect for Text */
+    .overlay {
+        position: absolute;
+        bottom: 28%;
+        left: 20%;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 130px 40px;
+        border-radius: 5px;
+    }
+
+    .overlay p {
+        color: white;
+        font-size: 45px;
+        font-family: 'Libre Caslon Display', serif;
+        margin: 0;
+    }
+
+    .luxury-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 50px 0;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+    .luxury-image {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    .luxury-image-img {
+        height: 600px;
+        width: 100%;
+    }
+
+    .luxury-content {
+        text-align: left;
+        flex: 1;
+        max-width: 50%;
+        padding-left: 40px;
+    }
+
+    .luxury-content h2 {
+        color: #000;
+        font-family: 'Libre Caslon Display', serif;
+        font-size: 48px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+
+    .luxury-content h3 {
+        color: #000;
+        font-family: 'Libre Caslon Display', serif;
+        font-size: 48px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+
+    .luxury-content p {
+        font-size: 16px;
+        color: #7D7E7C;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    .homes-section {
+        width: 100%;
+        padding: 60px 0;
+        color: black;
+        text-align: left;
+    }
+
+    .amenities-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #fff;
+    }
+
+    .amenities-container {
+        padding-top: 65px;
+    }
+
+    .amenities-content {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    .amenities-container h2 {
+        text-align: left;
+        color: #1B1B1B;
+        font-family: 'Libre Caslon Display', serif;
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    .amenities-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .amenity {
+        padding: 55px 20px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-family: 'Libre Caslon Display', serif;
+        color: #8a702e;
+        /* Gold/Brown Shade */
+    }
+
+    .amenity i {
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .amenity:hover {
+        background-color: #5B5F4F;
+        /* Green Background */
+        color: white;
+        padding: 55px 20px;
+
+    }
+
+    .amenity.active {
+        background-color: #5B5F4F;
+        /* Green Background */
+        color: white;
+        padding: 55px 20px;
+
+    }
+
+    .amenities-inner-image {
+        margin-bottom: 20px;
+    }
+
+    .amenities-image {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    .amenities-image img {
+        height: 700px;
+        width: 600px;
+        border-radius: 5px;
+    }
+
+    .options-section h2 {
+        text-align: left;
+        font-family: 'Libre Caslon Display', serif;
+        font-weight: 400;
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+
+
+    .option-box {
+        transition: 0.3s;
+
+
+        background-color: white;
+        color: black;
+        padding: 30px 40px;
+        width: 300px;
+        text-align: left;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        /* Subtle shadow */
+    }
+
+    .option-box h3 {
+        font-family: 'Libre Caslon Display', serif;
+
+        font-size: 30px;
+        margin-bottom: 5px;
+    }
+
+    .home-card h3 {
+        font-family: 'Libre Caslon Display', serif;
+
+        color: #1B1B1B;
+        font-size: 36px;
+        margin: 10px 0;
+    }
+
+    .home-card p {
+
+        font-size: 14px;
+        color: #7D7E7C;
+    }
+
+    .options-section {
+        width: 100%;
+        background-color: #596553;
+        /* Greenish Background */
+        padding: 50px 0;
+        text-align: center;
+        color: white;
+        font-family: 'Libre Caslon Display', serif;
+    }
+
+    .homes-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .home-card {
+        padding-top: 25px;
+        width: 30%;
+
+    }
+
+    .home-card img {
+        height: 314px;
+        width: 100%;
+    }
+
+    .homes-section h2 {
+        font-family: 'Libre Caslon Display', serif;
+
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+
+    .sub-head h2 {
+        font-family: 'Libre Caslon Display', serif;
+
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+
+    .inner-div {
+        left: 22%;
+        top: 37px;
+        position: absolute;
+    }
+
+    .rect-div {
+        top: -14%;
+        left: 11%;
+        position: absolute !important;
+    }
+
+    .rect-div-luxury {
+        top: -8%;
+        left: 5%;
+        position: absolute !important;
+    }
+
+    .more-text {
+        cursor: pointer;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .home-top-section {
+        width: 100%;
+        height: 110vh;
+        background: url('./images/home-bg.webp') no-repeat center center/cover;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .custom-btn {
+        text-decoration: none;
+        color: white;
+        padding: 10px 20px;
+        border: 1px solid white;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+    .custom-btn-fill {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        padding: 10px 20px;
+        background: white;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+
+    .home-top-content h1 {
+        font-family: 'Libre Caslon Display', serif;
+        font-weight: 400;
+        line-height: 100px;
+        font-size: 89px;
+    }
+
+    .home-top-content p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+        justify-content: flex-end;
+    }
+}
+
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+    color: white !important;
+}
+
+.navbar-toggler {
+    border: none;
+
+}
