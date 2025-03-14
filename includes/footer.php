@@ -6,8 +6,6 @@
                 <p>Where Comfort Is Everything. Beautiful Room Presentations, Straightforward Booking & Reservation
                     Options, & A Whole Lot More Awaits Here.</p>
             </div>
-
-
             <div class="footer-column">
                 <h3>Explore</h3>
                 <ul>
@@ -17,7 +15,6 @@
                     <li><a href="#">Rooms</a></li>
                 </ul>
             </div>
-
             <div class="footer-column">
                 <h3>Links</h3>
                 <ul>
@@ -26,8 +23,6 @@
                     <li><a href="#">Booking</a></li>
                 </ul>
             </div>
-
-
 
             <div class="footer-column">
                 <h3>Contact Us</h3>
@@ -44,15 +39,9 @@
                     <label class="icon-nav"><i class="bi bi-twitter"></i></label>
                     <label class="icon-nav"><i class="bi bi-facebook"></i></label>
                     <label class="icon-nav"><i class="bi bi-youtube"></i></label>
-
-
                 </div>
             </div>
         </div>
-
-
-
-
     </footer>
     <div class="footer-bottom">
         <p>Greenpark Copyright © 2024 <span class="highlight">Snowfinch</span></p>
@@ -67,6 +56,30 @@
                 behavior: "smooth"
             });
         }
+
+        function openTab(event, cityName) {
+            let tabContents = document.querySelectorAll(".tab-content");
+            tabContents.forEach(content => content.classList.remove("active"));
+
+            let tabButtons = document.querySelectorAll(".tab-btn");
+            tabButtons.forEach(button => button.classList.remove("active"));
+
+            document.getElementById(cityName).classList.add("active");
+            event.currentTarget.classList.add("active");
+        }
+
+        // document.addEventListener("DOMContentLoaded",function(){
+        //     let navbar =document.querySelector(".navbar");
+        //     if (window.location.pathname === "/index.php"){
+        //         navbar.classList.remove("navbar-white");
+        //         navbar.classList.add("navbar-home");
+        //     }
+        //     else{
+        //         navbar.classList.remove("navbar-home");
+        //         navbar.classList.add("navbar-white");
+        //     }
+
+        // });
         const testimonials = [
             {
                 name: "Rohit Kumar, Mumbai",

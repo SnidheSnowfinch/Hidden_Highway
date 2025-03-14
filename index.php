@@ -1,4 +1,5 @@
 <?php include 'includes/header.php' ?>
+ 
 <div class="home-top-section">
         <div class="home-top-content">
             <p>WELCOME TO HIDDEN HIDEAWAY</p>
@@ -22,25 +23,36 @@
                 </div>
             </div>
 
-            <div class="homes-container">
-                <div class="home-card">
-                    <img src="bootstrap/images/home-img1.webp" alt="House">
-                    <h3>Hidden Tower Estate</h3>
-                    <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
-                    <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+            <div class="homes-contaner">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="home-card">
+                            <img src="bootstrap/images/home-img1.webp" alt="House">
+                            <h3>Hidden Tower Estate</h3>
+                            <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
+                            <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="home-card">
+                            <img src="bootstrap/images/home-img1.webp" alt="House">
+                            <h3>Hidden Tower Estate</h3>
+                            <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
+                            <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <div class="home-card">
+                            <img src="bootstrap/images/home-img1.webp" alt="House">
+                            <h3>Hidden Tower Estate</h3>
+                            <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
+                            <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                        </div>
+                    </div>
+
+
                 </div>
-                <div class="home-card">
-                    <img src="bootstrap/images/home-img-2.webp" alt="Villa">
-                    <h3>Hidden Tower Estate</h3>
-                    <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
-                    <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
-                </div>
-                <div class="home-card">
-                    <img src="bootstrap/images/home-img-3.webp" alt="Luxury Home">
-                    <h3>Hidden Tower Estate</h3>
-                    <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
-                    <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
-                </div>
+               
             </div>
         </div>
     </div>
@@ -156,25 +168,257 @@
                     </div>
                 </div>
 
-                <div class="homes-container">
-                    <div class="home-card">
-                        <img src="bootstrap/images/home-img1.webp" alt="House">
-                        <h3>Hidden Tower Estate</h3>
-                        <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
-                        <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                <div class="homes-contaner">
+                    <div class="tabs">
+                        <button class="tab-btn active" onclick="openTab(event, 'Mahabaleshwar')">Mahabaleshwar</button>
+                        <button class="tab-btn" onclick="openTab(event, 'Nashik')">Nashik</button>
+                        <button class="tab-btn" onclick="openTab(event, 'Karjat')">Karjat</button>
+                        <button class="tab-btn" onclick="openTab(event, 'Alibaug')">Alibaug</button>
+                        <button class="tab-btn" onclick="openTab(event, 'Himachal')">Himachal Pradesh</button>
+                        <button class="tab-btn" onclick="openTab(event, 'Uttarakhand')">Uttarakhand</button>
+                        <button class="tab-btn" onclick="openTab(event, 'Goa')">Goa</button>
                     </div>
-                    <div class="home-card">
-                        <img src="bootstrap/images/home-img-2.webp" alt="Villa">
-                        <h3>Hidden Tower Estate</h3>
-                        <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
-                        <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+        
+                    <div class="tab-content active" id="Mahabaleshwar">
+                        <div class="homes-contaner">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="home-card">
+                                        <img src="bootstrap/images/home-img-3.webp" alt="House">
+                                        <h3>Hidden Tower Estate</h3>
+                                        <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
+                                        <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="home-card">
+                                        <img src="bootstrap/images/home-img1.webp" alt="House">
+                                        <h3>Hidden Tower Estate</h3>
+                                        <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
+                                        <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="home-card">
+                                        <img src="bootstrap/images/home-img-2.webp" alt="House">
+                                        <h3>Hidden Tower Estate</h3>
+                                        <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
+                                        <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                                    </div>
+                                </div>
+            
+            
+                            </div>
+                           
+                        </div>
                     </div>
-                    <div class="home-card">
-                        <img src="bootstrap/images/home-img-3.webp" alt="Luxury Home">
-                        <h3>Hidden Tower Estate</h3>
-                        <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
-                        <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+        
+                    <div class="tab-content" id="Nashik">
+                        <div class="homes-contaner">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="home-card">
+                                        <img src="bootstrap/images/home-img1.webp" alt="House">
+                                        <h3>Hidden Tower Estate</h3>
+                                        <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
+                                        <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="home-card">
+                                        <img src="bootstrap/images/home-img-2.webp" alt="House">
+                                        <h3>Hidden Tower Estate</h3>
+                                        <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
+                                        <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="home-card">
+                                        <img src="bootstrap/images/home-img-3.webp" alt="House">
+                                        <h3>Hidden Tower Estate</h3>
+                                        <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
+                                        <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                                    </div>
+                                </div>
+            
+            
+                            </div>
+                           
+                        </div>
                     </div>
+        
+                    <div class="tab-content" id="Karjat">
+                        <div class="homes-contaner">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="home-card">
+                                        <img src="bootstrap/images/home-img-3.webp" alt="House">
+                                        <h3>Hidden Tower Estate</h3>
+                                        <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
+                                        <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="home-card">
+                                        <img src="bootstrap/images/home-img-2.webp" alt="House">
+                                        <h3>Hidden Tower Estate</h3>
+                                        <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
+                                        <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="home-card">
+                                        <img src="bootstrap/images/home-img1.webp" alt="House">
+                                        <h3>Hidden Tower Estate</h3>
+                                        <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
+                                        <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                                    </div>
+                                </div>
+            
+            
+                            </div>
+                           
+                        </div>
+                    </div>
+        
+                    <div class="tab-content" id="Alibaug">
+                        <div class="homes-contaner">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="home-card">
+                                        <img src="bootstrap/images/home-img1.webp" alt="House">
+                                        <h3>Hidden Tower Estate</h3>
+                                        <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
+                                        <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="home-card">
+                                        <img src="bootstrap/images/home-img-2.webp" alt="House">
+                                        <h3>Hidden Tower Estate</h3>
+                                        <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
+                                        <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="home-card">
+                                        <img src="bootstrap/images/home-img-3.webp" alt="House">
+                                        <h3>Hidden Tower Estate</h3>
+                                        <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
+                                        <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                                    </div>
+                                </div>
+            
+            
+                            </div>
+                           
+                        </div>
+                    </div>
+        
+                    <div class="tab-content" id="Himachal">
+                        <div class="homes-contaner">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="home-card">
+                                        <img src="bootstrap/images/home-img-3.webp" alt="House">
+                                        <h3>Hidden Tower Estate</h3>
+                                        <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
+                                        <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="home-card">
+                                        <img src="bootstrap/images/home-img-2.webp" alt="House">
+                                        <h3>Hidden Tower Estate</h3>
+                                        <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
+                                        <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="home-card">
+                                        <img src="bootstrap/images/home-img1.webp" alt="House">
+                                        <h3>Hidden Tower Estate</h3>
+                                        <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
+                                        <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                                    </div>
+                                </div>
+            
+            
+                            </div>
+                           
+                        </div>
+                    </div>
+        
+                    <div class="tab-content" id="Uttarakhand">
+                        <div class="homes-contaner">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="home-card">
+                                        <img src="bootstrap/images/home-img1.webp" alt="House">
+                                        <h3>Hidden Tower Estate</h3>
+                                        <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
+                                        <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="home-card">
+                                        <img src="bootstrap/images/home-img-2.webp" alt="House">
+                                        <h3>Hidden Tower Estate</h3>
+                                        <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
+                                        <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="home-card">
+                                        <img src="bootstrap/images/home-img-3.webp" alt="House">
+                                        <h3>Hidden Tower Estate</h3>
+                                        <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
+                                        <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                                    </div>
+                                </div>
+            
+            
+                            </div>
+                           
+                        </div>
+                    </div>
+        
+                    <div class="tab-content" id="Goa">
+                        <div class="homes-contaner">
+                            <div class="row">
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="home-card">
+                                        <img src="bootstrap/images/home-img-2.webp" alt="House">
+                                        <h3>Hidden Tower Estate</h3>
+                                        <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
+                                        <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="home-card">
+                                        <img src="bootstrap/images/home-img1.webp" alt="House">
+                                        <h3>Hidden Tower Estate</h3>
+                                        <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
+                                        <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="home-card">
+                                        <img src="bootstrap/images/home-img-3.webp" alt="House">
+                                        <h3>Hidden Tower Estate</h3>
+                                        <p>From <span class="yellow-text">₹ 9,000/Night</span></p>
+                                        <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                                    </div>
+                                </div>
+                               
+            
+            
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+                   
                 </div>
             </div>
         </div>
@@ -237,9 +481,6 @@
             </div>
         </section>
     </div>
-
-
-
     <section class="testimonial-section">
         <div class="testimonial-slider">
             <button class="prev-btn">←</button>

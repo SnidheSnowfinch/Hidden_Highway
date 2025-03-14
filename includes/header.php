@@ -14,12 +14,8 @@
     <link rel="stylesheet" href="bootstrap/style.css">
 
 </head>
-
 <body>
-
-
-
-    <div class="navbar navbar navbar-expand-lg">
+    <div class="navbar-home navbar navbar-expand-lg">
         <div class="logo">
             <img src="bootstrap/images/nav-logo.webp" alt="">
         </div>
