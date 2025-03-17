@@ -70,12 +70,12 @@
 
         // document.addEventListener("DOMContentLoaded",function(){
         //     let navbar =document.querySelector(".navbar");
-        //     if (window.location.pathname === "/index.php"){
-        //         navbar.classList.remove("navbar-white");
+        //     if (window.location.pathname === "/" || windows.location.pathname.includes("index.php")){
+               
         //         navbar.classList.add("navbar-home");
         //     }
         //     else{
-        //         navbar.classList.remove("navbar-home");
+               
         //         navbar.classList.add("navbar-white");
         //     }
 

@@ -298,6 +298,7 @@ background-color: #596553;
 }
 
 .social-icons i {
+    color: white;
     margin: 0 14px 0 2px;
     font-size: 20px;
 
@@ -315,6 +316,15 @@ background-color: #596553;
 }
 
 @media (max-width: 767px) {
+    .homes-section h3{
+        font-size: 24px;
+        font-family: 'Libre Caslon Display', serif;
+        font-weight: 400;
+        
+      }
+    .rooms-inner-card {
+        padding: 15px;
+      }
   
 .tabs {
   margin-top: 12px;
@@ -733,7 +743,7 @@ background-color: #596553;
     .homes-section h2 {
         font-family: 'Libre Caslon Display', serif;
 
-        font-size: 48px;
+        font-size: 24px;
         margin-bottom: 10px;
     }
 
@@ -756,7 +766,7 @@ background-color: #596553;
     }
 
     .rect-div {
-        top: -7%;
+        top: -13%;
         left: 74%;
         position: absolute !important;
     }
@@ -828,6 +838,15 @@ background-color: #596553;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+    .homes-section h3{
+        font-size: 32px;
+        font-family: 'Libre Caslon Display', serif;
+        font-weight: 400;
+        
+      }
+    .rooms-inner-card {
+        padding: 25px;
+      }
   
 .tabs {
   justify-content: space-between;
@@ -1332,6 +1351,27 @@ background: white;        border-bottom: 1px solid rgb(54 49 49 / 15%);
 }
 
 @media (min-width: 1025px) and (max-width: 1440px) {
+    .rooms-inner-card p{
+        margin-bottom: 8px;
+        font-size: 14px !important;
+        color: #7D7E7C;
+      }
+      .filter-box h5{
+        font-size: 18px !important;
+      }
+    .cont{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .homes-section h3{
+        font-size: 24px;
+        font-family: 'Libre Caslon Display', serif;
+        font-weight: 400;
+        
+      }
+    .rooms-inner-card {
+        padding: 25px;
+      }
   
 .tabs {
   justify-content: space-between;
@@ -1717,7 +1757,7 @@ background: white;        border-bottom: 1px solid rgb(54 49 49 / 15%);
         font-family: 'Libre Caslon Display', serif;
 
         color: #1B1B1B;
-        font-size: 30px;
+        font-size: 24px;
         margin: 10px 0;
     }
 
@@ -1755,14 +1795,14 @@ background: white;        border-bottom: 1px solid rgb(54 49 49 / 15%);
     .homes-section h2 {
         font-family: 'Libre Caslon Display', serif;
 
-        font-size: 25px;
+        font-size: 30px;
         margin-bottom: 10px;
     }
 
     .sub-head h2 {
         font-family: 'Libre Caslon Display', serif;
 
-        font-size: 25px;
+        font-size: 30px;
         margin-bottom: 10px;
     }
 
@@ -1845,6 +1885,19 @@ background: white;        border-bottom: 1px solid rgb(54 49 49 / 15%);
 }
 
 @media (min-width: 1441px) and (max-width: 1920px) {
+    .cont{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .homes-section h3{
+        font-size: 32px;
+        font-family: 'Libre Caslon Display', serif;
+        font-weight: 400;
+        
+      }
+    .rooms-inner-card {
+        padding: 25px;
+      }
   
 .tabs {
   justify-content: space-between;
@@ -2287,7 +2340,7 @@ background: white;        border-bottom: 1px solid rgb(54 49 49 / 15%);
     }
     .home-top-section-inner {
       width: 100%;
-      height: 50vh;
+      height: 70vh;
       background: url('./images/home-top-img.png') no-repeat center center/cover;
       position: relative;
       display: flex;
@@ -2327,6 +2380,19 @@ background: white;        border-bottom: 1px solid rgb(54 49 49 / 15%);
 }
 
 @media (min-width: 1921px) {
+    .cont{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .homes-section h3{
+        font-size: 32px;
+        font-family: 'Libre Caslon Display', serif;
+        font-weight: 400;
+        
+      }
+    .rooms-inner-card {
+        padding: 25px;
+      }
   
 .tabs {
   justify-content: space-between;
@@ -2770,7 +2836,7 @@ background: white;        border-bottom: 1px solid rgb(54 49 49 / 15%);
     
     .home-top-section-inner {
       width: 100%;
-      height: 50vh;
+      height: 70vh;
       background: url('./images/home-top-img.png') no-repeat center center/cover;
       position: relative;
       display: flex;
@@ -2845,15 +2911,10 @@ background: white;        border-bottom: 1px solid rgb(54 49 49 / 15%);
 .sub-head p {
     color: #7D7E7C;
 }
-.space-between{
-  display:flex ;
-  justify-content: space-between;
-}
+
 /* ---------------- */
 
-.rooms-inner-card {
-  padding: 25px;
-}
+
 .room-sub-div{
   border-top: 1px solid #C2C6C0;
 }
@@ -2975,13 +3036,22 @@ background: white;        border-bottom: 1px solid rgb(54 49 49 / 15%);
   position: relative;
   background-color: white;
 }
-
-.homes-section h3{
-  font-size: 32px;
-  font-family: 'Libre Caslon Display', serif;
-  font-weight: 400;
-  
+.custom-checkbox:checked {
+    background-color: #E37B02;
+    border: 2px solid #E37B02;
 }
+
+.custom-checkbox:checked::after {
+    content: "✔";
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
 .rooms-inner-card p{
   margin-bottom: 8px;
   font-size: 16px;
@@ -3044,12 +3114,44 @@ background: white;        border-bottom: 1px solid rgb(54 49 49 / 15%);
   color: #ff6600;
   font-weight: bold;
 }
+.space-between{
+    display:flex ;
+    justify-content: space-between;
+  }
 
 @media (max-width: 768px) {
+    .space-between{
+        display:block !important ;
+        justify-content: space-between;
+      }
+    .box{
+        /* display: flex; */
+        justify-content: center;
+    }
   .tab-content {
       flex-direction: column;
   }
   .listing {
       width: 100%;
   }
+  .cont{
+    display: flex;
+    flex-direction: column;
+  }
+  .box3,.box1{
+    order: -1;
+  }
+  .box2{
+    border-top: 1px solid #C2C6C0;
+  }
+}
+.box1{
+    display: flex !important;
+    flex: 3;
+}
+.box2{
+    flex: 5;
+}
+.box3{
+    width: 100%;
 }

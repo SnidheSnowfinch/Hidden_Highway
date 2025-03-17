@@ -15,7 +15,7 @@
 
 </head>
 <body>
-    <div class="navbar-home navbar navbar-expand-lg">
+    <div class="navbar navbar-home navbar-expand-lg" id="navbar">
         <div class="logo">
             <img src="bootstrap/images/nav-logo.webp" alt="">
         </div>
@@ -25,8 +25,8 @@
         <div class="collapse navbar-collapse" id="navbarNav">
 
             <div class="menu navbar-nav  nav-gap">
-                <a href="#">Home</a>
-                <a href="#">About Us</a>
+                <a href="index.php">Home</a>
+                <a href="rooms-details.php">About Us</a>
                 <a href="#">Activities</a>
                 <a href="#">Gallery</a>
                 <a href="#">Destinations</a>
@@ -38,3 +38,16 @@
 
 
     </div>
+    <script>
+       document.addEventListener("DOMContentLoaded",function(){
+        let isHomepage = "<?php echo basename($_SERVER['PHP_SELF']) == 'index.php' ? 'true' : 'false' ;?>";
+        if (isHomepage === "true"){
+
+               document.getElementById("navbar").classList.add("navbar-home");
+       }
+                else{
+            document.getElementById("navbar").classList.remove("navbar-home");
+
+                    document.getElementById("navbar").classList.add("navbar-white");
+                }});
+    </script>

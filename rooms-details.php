@@ -19,108 +19,122 @@
 
                 
 
-                <div class="col-lg-9 col-md-8">
+            <div class="col-lg-9 col-md-8">
                     <div class="rooms-card position-relative">
-                        <div class="row left-right-space">
-                            <div class="col-lg-4 col-md-12 d-flex left-right-space">
+                        <div class="cont left-right-space ">
+
+                            <div class=" left-right-space flex-item box box1">
                                 <img src="bootstrap/images/home-img1.webp" alt="" width="100%">
 
                             </div>
-                            <div class="col-lg-8 col-md-12 p-0">
-                                <div class="rooms-inner-card">
+
+
+                            <div class="rooms-inner-card box box2">
 
 
 
-                                    <div class="heart-icon">
-                                        <i class="bi bi-heart-fill"></i>
-                                    </div>
-
-
-
-                                    <h3>Hidden tower Estate (4 Bedroom Stay)</h3>
-                                   
-                                    <p>Ooty, Tamil Nadu</p>
-                                    <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
-                                    <p class="d-flex" style="align-items: center;"><img class="mx-2" src="bootstrap/images/tea-icon.png" alt="" style="width: 18px;">Breakfast included</p>
-
-                                    <div class="space-between">
-                                        <div class="d-flex align-items-center">
-                                            <div class="stars">
-                                                <i class="bi bi-star-fill"></i>
-                                            </div>
-                                            <p class="m-0 text-dark">4.98 (24)</p>
-                                        </div>
-                                        <div>
-                                            <p> <span class="yellow-text">₹ 9,000/Night</span>+ GST (per night)</p>
-                                            <p>(₹5000 X 4 rooms)</p>
-                                        </div>
-                                    </div>
-
-                                   
-
+                                <div class="heart-icon">
+                                    <i class="bi bi-heart-fill"></i>
                                 </div>
-                                
+
+
+
+                                <h3>Hidden tower Estate (4 Bedroom Stay)</h3>
+
+                                <p>Ooty, Tamil Nadu</p>
+                                <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                                <p class="d-flex" style="align-items: center;"><img class="mx-2"
+                                        src="bootstrap/images/tea-icon.png" alt="" style="width: 18px;">Breakfast
+                                    included</p>
+
+                                <div class="space-between">
+                                    <div class="d-flex align-items-center">
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <p class="m-0 text-dark">4.98 (24)</p>
+                                    </div>
+                                    <div>
+                                        <p> <span class="yellow-text">₹ 9,000/Night</span>+ GST (per night)</p>
+                                        <p>(₹5000 X 4 rooms)</p>
+                                    </div>
+                                </div>
+
+
 
                             </div>
-                            <div class="room-sub-div">
-                            
-                            <label>A 19th-century 4-bedroom heritage bungalow right near the Ooty Golf Course. Birdwatching, garden sit-outs, golf course trails, starlit bonfire nights and many near the Ooty Golf Course. Birdwatching, garden sit-outs, golf course trails, starlit bonfi to be discovere...
-                                <strong class="text-dark">Read More</strong>
-                            </label>
+  
+
+
+                            <div class="room-sub-div w-100 box box3">
+
+                                <label>A 19th-century 4-bedroom heritage bungalow right near the Ooty Golf Course.
+                                    Birdwatching, garden sit-outs, golf course trails, starlit bonfire nights and many
+                                    near the Ooty Golf Course. Birdwatching, garden sit-outs, golf course trails,
+                                    starlit bonfi to be discovere...
+                                    <strong class="text-dark">Read More</strong>
+                                </label>
                             </div>
                         </div>
                     </div>
                     <div class="rooms-card position-relative">
-                        <div class="row left-right-space">
-                            <div class="col-lg-4 col-md-12 d-flex left-right-space">
+                        <div class="cont left-right-space ">
+
+                            <div class=" left-right-space flex-item box box1">
                                 <img src="bootstrap/images/home-img1.webp" alt="" width="100%">
 
                             </div>
-                            <div class="col-lg-8 col-md-12 p-0">
-                                <div class="rooms-inner-card">
+
+
+                            <div class="rooms-inner-card box box2">
 
 
 
-                                    <div class="heart-icon">
-                                        <i class="bi bi-heart-fill"></i>
-                                    </div>
-
-
-
-                                    <h3>Hidden tower Estate (4 Bedroom Stay)</h3>
-                                   
-                                    <p>Ooty, Tamil Nadu</p>
-                                    <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
-                                    <p class="d-flex" style="align-items: center;"><img class="mx-2" src="bootstrap/images/tea-icon.png" alt="" style="width: 18px;">Breakfast included</p>
-
-                                    <div class="space-between">
-                                        <div class="d-flex align-items-center">
-                                            <div class="stars">
-                                                <i class="bi bi-star-fill"></i>
-                                            </div>
-                                            <p class="m-0 text-dark">4.98 (24)</p>
-                                        </div>
-                                        <div>
-                                            <p> <span class="yellow-text">₹ 9,000/Night</span>+ GST (per night)</p>
-                                            <p>(₹5000 X 4 rooms)</p>
-                                        </div>
-                                    </div>
-
-                                   
-
+                                <div class="heart-icon">
+                                    <i class="bi bi-heart-fill"></i>
                                 </div>
-                                
+
+
+
+                                <h3>Hidden tower Estate (4 Bedroom Stay)</h3>
+
+                                <p>Ooty, Tamil Nadu</p>
+                                <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
+                                <p class="d-flex" style="align-items: center;"><img class="mx-2"
+                                        src="bootstrap/images/tea-icon.png" alt="" style="width: 18px;">Breakfast
+                                    included</p>
+
+                                <div class="space-between">
+                                    <div class="d-flex align-items-center">
+                                        <div class="stars">
+                                            <i class="bi bi-star-fill"></i>
+                                        </div>
+                                        <p class="m-0 text-dark">4.98 (24)</p>
+                                    </div>
+                                    <div>
+                                        <p> <span class="yellow-text">₹ 9,000/Night</span>+ GST (per night)</p>
+                                        <p>(₹5000 X 4 rooms)</p>
+                                    </div>
+                                </div>
+
+
 
                             </div>
-                            <div class="room-sub-div">
-                            
-                            <label>A 19th-century 4-bedroom heritage bungalow right near the Ooty Golf Course. Birdwatching, garden sit-outs, golf course trails, starlit bonfire nights and many near the Ooty Golf Course. Birdwatching, garden sit-outs, golf course trails, starlit bonfi to be discovere...
-                                <strong class="text-dark">Read More</strong>
-                            </label>
+  
+
+
+                            <div class="room-sub-div w-100 box box3">
+
+                                <label>A 19th-century 4-bedroom heritage bungalow right near the Ooty Golf Course.
+                                    Birdwatching, garden sit-outs, golf course trails, starlit bonfire nights and many
+                                    near the Ooty Golf Course. Birdwatching, garden sit-outs, golf course trails,
+                                    starlit bonfi to be discovere...
+                                    <strong class="text-dark">Read More</strong>
+                                </label>
                             </div>
                         </div>
                     </div>
-                
+
                 </div>
                 <aside class="col-lg-3 col-md-4 mb-4">
                     <div class="filter-box">
