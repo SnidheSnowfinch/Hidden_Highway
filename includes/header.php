@@ -26,12 +26,12 @@
 
             <div class="menu navbar-nav  nav-gap">
                 <a href="index.php">Home</a>
-                <a href="rooms-details.php">About Us</a>
-                <a href="#">Activities</a>
+                <a href="about-us.php">About Us</a>
+                <a href="">Activities</a>
                 <a href="#">Gallery</a>
                 <a href="#">Destinations</a>
                 <a href="#">Blog</a>
-                <a href="#">Contact</a>
+                <a href="contact-us.php">Contact</a>
                 <a href="#" class="reservation-btn">Reservation</a>
             </div>
         </div>

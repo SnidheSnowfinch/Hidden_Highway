@@ -71,6 +71,10 @@ body {
     text-decoration: none;
     font-weight: bold;
 }
+.navbar-home .reservation-btn:hover {
+    background-color: white;
+    color: black;
+}
 
 .navbar-white .reservation-btn {
     background-color: #596553;
@@ -80,7 +84,9 @@ body {
     text-decoration: none;
     font-weight: bold;
 }
-
+.navbar-white .reservation-btn:hover {
+    background-color:#7e867a ;
+}
 .home-top-content {
     position: relative;
     z-index: 2;
@@ -123,6 +129,10 @@ body {
 .yellow-text-link {
     color: #DC9F37;
     cursor: pointer;
+}
+.yellow-text-head{
+    color: #DC9F37;
+ 
 }
 
 .yellow-text {
@@ -288,10 +298,7 @@ body {
     transition: 0.3s;
 }
 
-.reservation-btn:hover {
-    background-color: white;
-    color: black;
-}
+
 
 .back-to-top:hover {
     background-color: #c9a307;
@@ -2576,7 +2583,7 @@ body {
 
     .home-top-section-inner {
         width: 100%;
-        height: 70vh;
+        height: 60vh;
         background: url('./images/home-top-img.png') no-repeat center center/cover;
         position: relative;
         display: flex;
@@ -3541,7 +3548,8 @@ label {
 
 .reservation-form input,
 .reservation-form select,
-.reservation-form button {
+.reservation-form button,
+.reservation-form textarea {
     border: 1px solid #C2C6C0;
     width: 100%;
     padding: 10px;
@@ -3619,3 +3627,233 @@ label {
     color: #848484;
 
 }
+
+.image-content {
+    margin-top: 20px;
+  
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.image-content-large {
+ 
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+.image-content img {
+    width: 100%;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+.image-content-large img {
+    width: 100%;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+.stats {
+    bottom: 40px;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+.stat {
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+}
+.state-height{height: 150px;}
+.stat span {
+    font-size: 48px;
+    font-weight: 700;
+    color: #DC9F37;
+}
+@media (max-width: 768px) {
+  
+    .image-content {
+        grid-template-columns: 1fr;
+    }
+    .image-content-large {
+        grid-template-columns: 1fr;
+    }
+}
+.abt-section{
+    width: 90%;
+    display: flex
+;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }  .left-box-gray {
+        background: url('./images/back-white-img.jpg') no-repeat center center/cover;
+
+      width: 40%;
+      justify-content: space-around;
+        background-color: #5d6b52;
+        color: white;
+        padding: 50px;
+       display: flex;
+        position: relative;
+    }
+    .left-box-gray::before {
+        opacity: 89%;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #596553;
+    }
+    .left-box-gray h2 {
+        text-align: left;
+        opacity: 0.8;
+    font-family: 'Libre Caslon Display', serif;
+
+font-weight: 400;
+        color: white;
+        font-size: 40px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+    }
+    .gray-box-text{
+        display: flex
+        ;
+            flex-wrap: wrap;
+            align-content: center;
+    }
+    .left-box-gray p {
+        font-weight: 400;
+        font-size: 15px;
+        opacity: 0.8;
+    }
+    .navigation {
+        position: absolute;
+        bottom: 2px;
+        right: 2px;
+        /* display: flex; */
+        gap: 10px;
+    }
+    .nav-gray-button {
+        border-bottom: 1px solid #3336324a;
+        font-size: 25px;
+        margin: px;
+        width: 76px;
+        height: 70px;
+        background: #596553;
+        color: #ffffff;
+        /* border-radius: 50%; */
+        display: flex
+    ;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .right-box-gray {
+     width: 60%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0 10px 10px 0;
+        overflow: hidden;
+        background: white;
+    }
+    .right-box-gray img {
+        width: 100%;
+        height: auto;
+    }
+    .text-gray-content {
+        text-align: left;
+        width: 50%;
+        background: white;
+        bottom: 0;
+        position: absolute;
+        padding: 50px;
+    }
+    .text-gray-content h3 {
+    font-family: 'Libre Caslon Display', serif;
+
+        color: black;
+        font-size:30px ;
+        margin-bottom: 10px;
+    }
+    .text-gray-content p {
+        font-size: 15px;
+        color: black;
+
+        line-height: 1.5;
+    }
+    @media (max-width: 768px) {
+        .section {
+            flex-direction: column;
+        }
+        .left-box, .right-box {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .left-box {
+            text-align: center;
+        }
+    }
+    .section-gray {
+        height: 500px;
+        margin: 20px 0;
+        display: flex;
+        width: 100%;
+        justify-content: start;
+       
+    }
+    .contact-section{
+        width: 70%;
+    }
+    .contact-box{
+        border: 1px solid #C2C6C0;
+        padding: 20px;
+
+    }
+    .contact-box label{width: 100%;
+        font-size: 16px;
+        color: #7D7E7C;
+    }
+    .contact-box input,textarea{
+        border: 1px solid #C2C6C0;
+        margin-bottom: 20px;
+    }
+    .contact-box button{
+        background-color: #596553;
+        width: 100%;
+    }
+.contact-div{
+   
+    margin-top: 20px;}
+    .contact-div section{
+       width: 400px;
+        align-items: flex-start;
+        display: flex;
+        margin-bottom: 15px;
+    }
+    .cont-text{
+        padding: 0 40px;
+    }
+    .home-card h4 {
+        text-align: left;
+        margin-top: 10px;
+        color: black;
+        font-size: 20px;
+    }
+    .text-left{
+        text-align: left;
+    }
+    .card-text{
+        font-size: 16px !important;
+    }
+    .card img{
+        height: 200px !important;
+    }
