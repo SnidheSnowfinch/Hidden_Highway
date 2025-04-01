@@ -3,7 +3,7 @@
         <div class="home-top-content">
           
             <h1>Rooms</h1>
-           <p>HOME <i class="bi bi-chevron-right mx-2"></i>ROOMS</p>
+           <p>HOME <i class="bi bi-chevron-double-right mx-2"></i>ROOMS</p>
         </div>
     </div>
     <div class="container">

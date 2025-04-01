@@ -3,7 +3,7 @@
         <div class="home-top-content">
 
             <h1>Contact Us</h1>
-            <p>HOME <i class="bi bi-chevron-right mx-2"></i>CONTACT US</p>
+            <p>HOME <i class="bi bi-chevron-double-right mx-2"></i>CONTACT US</p>
         </div>
     </div>
     <div class="position-relative w-100">

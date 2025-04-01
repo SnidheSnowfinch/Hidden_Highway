@@ -3857,3 +3857,90 @@ font-weight: 400;
     .card img{
         height: 200px !important;
     }
+    .gray-section{
+        font-size: 24px;
+        background-color: #596553;
+        color: white !important;
+        padding: 10px;
+    }
+    .gray-section p{
+        color: white !important;
+
+    }
+
+    .gray-position{
+        display: flex
+        ;
+            justify-content: space-around;
+    }
+    .card-letter{
+        display: flex
+        ;
+            justify-content: space-between;
+    }
+    .card-letter h4{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .terms{
+        margin-top: 20px;
+    }
+    .terms h4{
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .terms p{
+        margin-top: 15px;
+    }
+    .gray-section label{
+        color: white;
+
+    }
+    .inner-payment-left{
+        padding: 0px 45px 0 0px;
+                border-right: 1px solid #596553;
+    }
+    .inner-payment-right{
+        padding: 0px 0px 0px 45px
+    }
+        
+    /* .gray-section input[type=radio]:checked {
+        background-color: white;
+    }
+    input[type=radio]:checked::before{
+        height: 10px;
+        width: 10px;
+        left: 5px;
+        top: 5px;
+        content: '';
+        position: absolute;
+        background-color: black;
+    } */
+     .contact-card{
+        border: 1px solid #C2C6C0;
+        padding: 40px 100px;
+     }
+     .confirm-div{
+        margin: 70px 0;
+        max-width: 990px;
+        padding: 60px 75px;
+        color: #000;
+        border: 1px solid #C2C6C0;
+     }
+     .confirm-div h3{
+        margin-top: 20px;
+
+        font-weight: 600;
+        font-size: 32px;
+     }
+     .confirm-div p{
+        margin-top: 20px;
+        font-size: 20px;
+     }
+     .confirm-container{
+        display: flex
+        ;
+            align-items: center;
+            justify-content: space-around;
+     }
