@@ -71,9 +71,10 @@ body {
     text-decoration: none;
     font-weight: bold;
 }
+
 .navbar-home .reservation-btn:hover {
     background-color: white;
-    color: black;
+    color: black !important;
 }
 
 .navbar-white .reservation-btn {
@@ -84,9 +85,13 @@ body {
     text-decoration: none;
     font-weight: bold;
 }
+
 .navbar-white .reservation-btn:hover {
-    background-color:#7e867a ;
+    color: #ffffff !important;
+
+    background-color: #7e867a;
 }
+
 .home-top-content {
     position: relative;
     z-index: 2;
@@ -130,9 +135,10 @@ body {
     color: #DC9F37;
     cursor: pointer;
 }
-.yellow-text-head{
+
+.yellow-text-head {
     color: #DC9F37;
- 
+
 }
 
 .yellow-text {
@@ -327,18 +333,103 @@ body {
 }
 
 @media (max-width: 767px) {
+    .confirm-div h3 {
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .confirm-div img {
+        width: 70px;
+    }
+    .confirm-div {
+        margin: 70px 0;
+        max-width: 990px;
+        padding: 20px 15px;
+        color: #000;
+    }
+    .room-button {
+        
+        font-size: 15px !important;
+    }
+   
+    
+    .inner-payment-right {
+        margin-top: 10px;
+        padding-top: 20px;
+        border-top: 1px solid #596553;
+
+    }
+    .gray-section {
+        font-size: 12px;
+        background-color: #596553;
+        color: white !important;
+        padding: 10px;
+    }
+    .reservation-form input,
+.reservation-form select,
+.reservation-form button,
+.reservation-form textarea {
+    border: 1px solid #C2C6C0;
+    width: 100%;
+    padding: 7px;
+    margin-top: 5px;
+}
+    .contact-card {
+        border: 1px solid #C2C6C0;
+        padding: 20px 10px;
+    }
+    .close-popup {
+        border-radius: 20px;
+        display: flex;
+        height: 20px;
+        width: 20px;
+        color: black;
+        background: #ffffff;
+        position: absolute;
+        top: 7px;
+        right: 5px;
+        font-size: 20px;
+        cursor: pointer;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .modal-content h2 {
+        margin-bottom: 10px;
+        color: #000;
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+    .modal-content-div {
+        padding: 15px !important;
+    }
+
+    .modal-content {
+        margin: 14px !important;
+    }
+
+    .modal-content-img {
+        object-fit: cover;
+        width: -webkit-fill-available;
+        /* padding: 0 30px; */
+        height: 220px;
+    }
+
     .reserve-inner-div h3 {
         color: #000;
         margin: 0;
         font-size: 20px;
     }
+
     .reservation-box {
         height: fit-content;
         border: 1px solid #C2C6C0;
-        
+
         padding: 30px;
         margin: 10px;
     }
+
     .left-box-rating {
         display: flex;
         padding: 20px;
@@ -848,7 +939,7 @@ body {
 
     .home-top-section {
         width: 100%;
-        height: 500px;
+        height: 450px;
         background: url('./images/home-bg.webp') no-repeat center center/cover;
         position: relative;
         display: flex;
@@ -859,7 +950,7 @@ body {
 
     .home-top-section-inner {
         width: 100%;
-        height: 300px;
+        height: 250px;
         background: url('./images/home-top-img.png') no-repeat center center/cover;
         position: relative;
         display: flex;
@@ -902,17 +993,89 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+    .confirm-div h3 {
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 32px;
+    }
+    .confirm-div {
+        box-shadow: var(--bs-box-shadow) !important;
+        margin: 70px 0;
+        max-width: 990px;
+        padding: 60px 75px;
+        color: #000;
+        border: 1px solid #C2C6C0;
+    }
+    .inner-payment-left {
+        padding: 0px 10px 0 0px;
+        border-right: 1px solid #596553;
+    }
+    
+    .inner-payment-right {
+        padding: 0px 0px 0px 0px
+    }
+    .gray-section {
+        font-size: 18px;
+        background-color: #596553;
+        color: white !important;
+        padding: 10px;
+    }
+    .reservation-form input,
+.reservation-form select,
+.reservation-form button,
+.reservation-form textarea {
+    border: 1px solid #C2C6C0;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+    .contact-card {
+        border: 1px solid #C2C6C0;
+        padding: 15px 20px;
+    }
+    .close-popup {
+        border-radius: 20px;
+        display: flex;
+        height: 20px;
+        width: 20px;
+        color: black;
+        background: #ffffff;
+        position: absolute;
+        top: 7px;
+        right: 5px;
+        font-size: 20px;
+        cursor: pointer;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .modal-content h2 {
+        margin-bottom: 20px;
+        color: #000;
+        font-weight: 400;
+        font-size: 28px;
+    }
+
+    .modal-content-img {
+        object-fit: cover;
+        width: -webkit-fill-available;
+        /* padding: 0 30px; */
+        height: 220px;
+    }
+
     .reserve-inner-div h3 {
         color: #000;
         margin: 0;
         font-size: 25px;
     }
+
     .reservation-box {
         height: fit-content;
         border: 1px solid #C2C6C0;
         width: 50%;
         padding: 30px;
     }
+
     .left-box-rating {
         text-align: left;
         max-width: 125px;
@@ -1470,15 +1633,89 @@ body {
 }
 
 @media (min-width: 1025px) and (max-width: 1440px) {
+    .confirm-div h3 {
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 32px;
+    }
+    .confirm-div {
+        box-shadow: var(--bs-box-shadow) !important;
+        margin: 70px 0;
+        max-width: 990px;
+        padding: 60px 75px;
+        color: #000;
+        border: 1px solid #C2C6C0;
+    }
+    .inner-payment-left {
+        padding: 0px 45px 0 0px;
+        border-right: 1px solid #596553;
+    }
+    
+    .inner-payment-right {
+        padding: 0px 0px 0px 45px
+    }
+    .gray-section {
+        font-size: 20px;
+        background-color: #596553;
+        color: white !important;
+        padding: 10px;
+    }
+    .reservation-form input,
+.reservation-form select,
+.reservation-form button,
+.reservation-form textarea {
+    border: 1px solid #C2C6C0;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+    .contact-card {
+        border: 1px solid #C2C6C0;
+        padding: 40px 100px;
+    }
+    .close-popup {
+        border-radius: 20px;
+        display: flex;
+        height: 20px;
+        width: 20px;
+        color: black;
+        background: #ffffff;
+        position: absolute;
+        top: 1px;
+        right: -29px;
+        font-size: 20px;
+        cursor: pointer;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .modal-content h2 {
+        margin-bottom: 20px;
+        color: #000;
+        font-weight: 400;
+        font-size: 30px;
+    }
+
+    .modal-flex {
+        display: flex;
+    }
+
+    .modal-content-img {
+
+        height: 650px;
+    }
+
     .homes-section p {
         font-size: 14px !important;
         color: #848484;
     }
+
     .reserve-inner-div h3 {
         color: #000;
         margin: 0;
         font-size: 25px;
     }
+
     .reservation-box {
         height: fit-content;
         border: 1px solid #C2C6C0;
@@ -1486,6 +1723,7 @@ body {
         padding: 30px;
         margin: 30px 12px 20px 40px;
     }
+
     .left-box-rating {
         text-align: left;
         max-width: 125px;
@@ -2070,11 +2308,84 @@ body {
 }
 
 @media (min-width: 1441px) and (max-width: 1920px) {
+    .confirm-div h3 {
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 32px;
+    }
+    .confirm-div {
+        box-shadow: var(--bs-box-shadow) !important;
+        margin: 70px 0;
+        max-width: 990px;
+        padding: 60px 75px;
+        color: #000;
+        border: 1px solid #C2C6C0;
+    }
+    .inner-payment-left {
+        padding: 0px 45px 0 0px;
+        border-right: 1px solid #596553;
+    }
+    
+    .inner-payment-right {
+        padding: 0px 0px 0px 45px
+    }
+    .gray-section {
+        font-size: 24px;
+        background-color: #596553;
+        color: white !important;
+        padding: 10px;
+    }
+    .reservation-form input,
+.reservation-form select,
+.reservation-form button,
+.reservation-form textarea {
+    border: 1px solid #C2C6C0;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+    .contact-card {
+        border: 1px solid #C2C6C0;
+        padding: 40px 100px;
+    }
+    .close-popup {
+        border-radius: 20px;
+        display: flex;
+        height: 20px;
+        width: 20px;
+        color: black;
+        background: #ffffff;
+        position: absolute;
+        top: 1px;
+        right: -29px;
+        font-size: 20px;
+        cursor: pointer;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .modal-content h2 {
+        margin-bottom: 20px;
+        color: #000;
+        font-weight: 400;
+        font-size: 34px;
+    }
+
+    .modal-flex {
+        display: flex;
+    }
+
+    .modal-content-img {
+
+        height: 650px;
+    }
+
     .reserve-inner-div h3 {
         color: #000;
         margin: 0;
         font-size: 32px;
     }
+
     .reservation-box {
         height: fit-content;
         border: 1px solid #C2C6C0;
@@ -2082,6 +2393,7 @@ body {
         padding: 30px;
         margin: 30px 12px 20px 40px;
     }
+
     .left-box-rating {
         text-align: left;
         max-width: 125px;
@@ -2623,12 +2935,85 @@ body {
     }
 }
 
+
 @media (min-width: 1921px) {
+    .confirm-div h3 {
+        margin-top: 20px;
+        font-weight: 600;
+        font-size: 32px;
+    }
+    .confirm-div {
+        box-shadow: var(--bs-box-shadow) !important;
+        margin: 70px 0;
+        max-width: 990px;
+        padding: 60px 75px;
+        color: #000;
+        border: 1px solid #C2C6C0;
+    }
+    .inner-payment-left {
+        padding: 0px 45px 0 0px;
+        border-right: 1px solid #596553;
+    }
+    
+    .inner-payment-right {
+        padding: 0px 0px 0px 45px
+    }
+    .gray-section {
+        font-size: 24px;
+        background-color: #596553;
+        color: white !important;
+        padding: 10px;
+    }
+    .reservation-form input,
+.reservation-form select,
+.reservation-form button,
+.reservation-form textarea {
+    border: 1px solid #C2C6C0;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+    .contact-card {
+        border: 1px solid #C2C6C0;
+        padding: 40px 100px;
+    }
+    .close-popup {
+        border-radius: 20px;
+        display: flex;
+        height: 20px;
+        width: 20px;
+        color: black;
+        background: #ffffff;
+        position: absolute;
+        top: 1px;
+        right: -29px;
+        font-size: 20px;
+        cursor: pointer;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .modal-content h2 {
+        margin-bottom: 20px;
+        color: #000;
+        font-weight: 400;
+        font-size: 34px;
+    }
+
+    .modal-flex {
+        display: flex;
+    }
+
+    .modal-content-img {
+        height: 650px;
+    }
+
     .reserve-inner-div h3 {
         color: #000;
         margin: 0;
         font-size: 32px;
     }
+
     .reservation-box {
         height: fit-content;
         border: 1px solid #C2C6C0;
@@ -2636,6 +3021,7 @@ body {
         padding: 30px;
         margin: 30px 12px 20px 40px;
     }
+
     .left-box-rating {
         text-align: left;
         max-width: 125px;
@@ -3546,17 +3932,10 @@ label {
     margin-top: 15px;
 }
 
-.reservation-form input,
-.reservation-form select,
-.reservation-form button,
-.reservation-form textarea {
-    border: 1px solid #C2C6C0;
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-}
+
 
 .room-button {
+    font-weight: 600;
     background: #596553;
     color: white;
     border: none;
@@ -3630,27 +4009,31 @@ label {
 
 .image-content {
     margin-top: 20px;
-  
+
     max-width: 90%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
+
 .image-content-large {
- 
+
     max-width: 90%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
 }
+
 .image-content img {
     width: 100%;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
+
 .image-content-large img {
     width: 100%;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
+
 .stats {
     bottom: 40px;
     position: absolute;
@@ -3661,286 +4044,460 @@ label {
     padding: 20px;
     margin-top: 40px;
     border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
+
 .stat {
     text-align: center;
     font-size: 16px;
     color: #000000;
 }
-.state-height{height: 150px;}
+
+.state-height {
+    height: 150px;
+}
+
 .stat span {
     font-size: 48px;
     font-weight: 700;
     color: #DC9F37;
 }
+
 @media (max-width: 768px) {
-  
+    
+
     .image-content {
         grid-template-columns: 1fr;
     }
+
     .image-content-large {
         grid-template-columns: 1fr;
     }
 }
-.abt-section{
+
+.abt-section {
     width: 90%;
-    display: flex
-;
+    display: flex;
     width: 90%;
     flex-wrap: wrap;
     justify-content: space-around;
-    }  .left-box-gray {
-        background: url('./images/back-white-img.jpg') no-repeat center center/cover;
+}
 
-      width: 40%;
-      justify-content: space-around;
-        background-color: #5d6b52;
-        color: white;
-        padding: 50px;
-       display: flex;
-        position: relative;
-    }
-    .left-box-gray::before {
-        opacity: 89%;
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: #596553;
-    }
-    .left-box-gray h2 {
-        text-align: left;
-        opacity: 0.8;
+.left-box-gray {
+    background: url('./images/back-white-img.jpg') no-repeat center center/cover;
+
+    width: 40%;
+    justify-content: space-around;
+    background-color: #5d6b52;
+    color: white;
+    padding: 50px;
+    display: flex;
+    position: relative;
+}
+
+.left-box-gray::before {
+    opacity: 89%;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #596553;
+}
+
+.left-box-gray h2 {
+    text-align: left;
+    opacity: 0.8;
     font-family: 'Libre Caslon Display', serif;
 
-font-weight: 400;
-        color: white;
-        font-size: 40px;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        margin-bottom: 10px;
-    }
-    .gray-box-text{
-        display: flex
-        ;
-            flex-wrap: wrap;
-            align-content: center;
-    }
-    .left-box-gray p {
-        font-weight: 400;
-        font-size: 15px;
-        opacity: 0.8;
-    }
-    .navigation {
-        position: absolute;
-        bottom: 2px;
-        right: 2px;
-        /* display: flex; */
-        gap: 10px;
-    }
-    .nav-gray-button {
-        border-bottom: 1px solid #3336324a;
-        font-size: 25px;
-        margin: px;
-        width: 76px;
-        height: 70px;
-        background: #596553;
-        color: #ffffff;
-        /* border-radius: 50%; */
-        display: flex
-    ;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        font-weight: bold;
-    }
-    .right-box-gray {
-     width: 60%;
-        display: flex;
+    font-weight: 400;
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.gray-box-text {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.left-box-gray p {
+    font-weight: 400;
+    font-size: 15px;
+    opacity: 0.8;
+}
+
+.navigation {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    /* display: flex; */
+    gap: 10px;
+}
+
+.nav-gray-button {
+    border-bottom: 1px solid #3336324a;
+    font-size: 25px;
+    margin: px;
+    width: 76px;
+    height: 70px;
+    background: #596553;
+    color: #ffffff;
+    /* border-radius: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.right-box-gray {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 10px 10px 0;
+    overflow: hidden;
+    background: white;
+}
+
+.right-box-gray img {
+    width: 100%;
+    height: auto;
+}
+
+.text-gray-content {
+    text-align: left;
+    width: 50%;
+    background: white;
+    bottom: 0;
+    position: absolute;
+    padding: 50px;
+}
+
+.text-gray-content h3 {
+    font-family: 'Libre Caslon Display', serif;
+
+    color: black;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.text-gray-content p {
+    font-size: 15px;
+    color: black;
+
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .section {
         flex-direction: column;
-        border-radius: 0 10px 10px 0;
-        overflow: hidden;
-        background: white;
     }
-    .right-box-gray img {
+
+    .left-box,
+    .right-box {
         width: 100%;
-        height: auto;
-    }
-    .text-gray-content {
-        text-align: left;
-        width: 50%;
-        background: white;
-        bottom: 0;
-        position: absolute;
-        padding: 50px;
-    }
-    .text-gray-content h3 {
-    font-family: 'Libre Caslon Display', serif;
-
-        color: black;
-        font-size:30px ;
-        margin-bottom: 10px;
-    }
-    .text-gray-content p {
-        font-size: 15px;
-        color: black;
-
-        line-height: 1.5;
-    }
-    @media (max-width: 768px) {
-        .section {
-            flex-direction: column;
-        }
-        .left-box, .right-box {
-            width: 100%;
-            border-radius: 10px;
-        }
-        .left-box {
-            text-align: center;
-        }
-    }
-    .section-gray {
-        height: 500px;
-        margin: 20px 0;
-        display: flex;
-        width: 100%;
-        justify-content: start;
-       
-    }
-    .contact-section{
-        width: 70%;
-    }
-    .contact-box{
-        border: 1px solid #C2C6C0;
-        padding: 20px;
-
-    }
-    .contact-box label{width: 100%;
-        font-size: 16px;
-        color: #7D7E7C;
-    }
-    .contact-box input,textarea{
-        border: 1px solid #C2C6C0;
-        margin-bottom: 20px;
-    }
-    .contact-box button{
-        background-color: #596553;
-        width: 100%;
-    }
-.contact-div{
-   
-    margin-top: 20px;}
-    .contact-div section{
-       width: 400px;
-        align-items: flex-start;
-        display: flex;
-        margin-bottom: 15px;
-    }
-    .cont-text{
-        padding: 0 40px;
-    }
-    .home-card h4 {
-        text-align: left;
-        margin-top: 10px;
-        color: black;
-        font-size: 20px;
-    }
-    .text-left{
-        text-align: left;
-    }
-    .card-text{
-        font-size: 16px !important;
-    }
-    .card img{
-        height: 200px !important;
-    }
-    .gray-section{
-        font-size: 24px;
-        background-color: #596553;
-        color: white !important;
-        padding: 10px;
-    }
-    .gray-section p{
-        color: white !important;
-
+        border-radius: 10px;
     }
 
-    .gray-position{
-        display: flex
-        ;
-            justify-content: space-around;
+    .left-box {
+        text-align: center;
     }
-    .card-letter{
-        display: flex
-        ;
-            justify-content: space-between;
-    }
-    .card-letter h4{
-        font-size: 20px;
-        font-weight: 400;
-    }
-    .terms{
-        margin-top: 20px;
-    }
-    .terms h4{
-        margin-bottom: 20px;
-        font-size: 20px;
-        font-weight: 400;
-    }
-    .terms p{
-        margin-top: 15px;
-    }
-    .gray-section label{
-        color: white;
+}
 
-    }
-    .inner-payment-left{
-        padding: 0px 45px 0 0px;
-                border-right: 1px solid #596553;
-    }
-    .inner-payment-right{
-        padding: 0px 0px 0px 45px
-    }
-        
-    /* .gray-section input[type=radio]:checked {
-        background-color: white;
-    }
-    input[type=radio]:checked::before{
-        height: 10px;
-        width: 10px;
-        left: 5px;
-        top: 5px;
-        content: '';
-        position: absolute;
-        background-color: black;
-    } */
-     .contact-card{
-        border: 1px solid #C2C6C0;
-        padding: 40px 100px;
-     }
-     .confirm-div{
-        margin: 70px 0;
-        max-width: 990px;
-        padding: 60px 75px;
-        color: #000;
-        border: 1px solid #C2C6C0;
-     }
-     .confirm-div h3{
-        margin-top: 20px;
+.section-gray {
+    height: 500px;
+    margin: 20px 0;
+    display: flex;
+    width: 100%;
+    justify-content: start;
 
-        font-weight: 600;
-        font-size: 32px;
-     }
-     .confirm-div p{
-        margin-top: 20px;
-        font-size: 20px;
-     }
-     .confirm-container{
-        display: flex
-        ;
-            align-items: center;
-            justify-content: space-around;
-     }
+}
+
+.contact-section {
+    width: 70%;
+}
+
+.contact-box {
+    border: 1px solid #C2C6C0;
+    padding: 20px;
+
+}
+
+.contact-box label {
+    width: 100%;
+    font-size: 16px;
+    color: #7D7E7C;
+}
+
+.contact-box input,
+textarea {
+    border: 1px solid #C2C6C0;
+    margin-bottom: 20px;
+}
+
+.contact-box button {
+    background-color: #596553;
+    width: 100%;
+}
+
+.contact-div {
+
+    margin-top: 20px;
+}
+
+.contact-div section {
+    width: 400px;
+    align-items: flex-start;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.cont-text {
+    padding: 0 40px;
+}
+
+.home-card h4 {
+    text-align: left;
+    margin-top: 10px;
+    color: black;
+    font-size: 20px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.card-text {
+    font-size: 16px !important;
+}
+
+.card img {
+    height: 200px !important;
+}
+
+
+
+.gray-section p {
+    color: white !important;
+
+}
+
+.gray-position {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-letter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-letter h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.terms {
+    margin-top: 20px;
+}
+
+.terms h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.terms p {
+    margin-top: 15px;
+}
+
+.gray-section label {
+    color: white;
+
+}
+
+
+
+
+.confirm-div p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.confirm-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* ==== */
+.input-group-pop-up {
+    margin-bottom: 15px;
+}
+
+.input-group-pop-up input {
+    border: none;
+    width: 100%;
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+}
+
+.input-group-pop-up i {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.checkbox-group {
+    margin-top: 10px;
+    font-size: 12px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group input {
+    margin-right: 5px;
+}
+
+.checkbox-group label {
+
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.checkbox-group a {
+    color: #000;
+    text-decoration: none;
+}
+
+#signupModal {
+    display: none;
+}
+
+.create-btn:hover {
+    background: #7e867a;
+}
+
+.create-btn {
+    margin-top: 10px;
+    font-weight: 600;
+    background: #596553;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+/* OR Text */
+.or {
+    text-align: center;
+    margin: 15px 0;
+    color: #0A0A0A;
+}
+
+/* Social Buttons */
+.social-login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+    padding: 10px;
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.social-btn img {
+    width: 18px;
+    margin-right: 8px;
+}
+
+
+
+/* Login Link */
+.login-link {
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.login-link a {
+    color: #687078;
+    ;
+    text-decoration: none;
+}
+
+/* Popup Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+
+    width: max-content;
+    position: relative;
+    text-align: left;
+}
+
+
+.navbar-white a:hover {
+    color: #888282;
+}
+
+/* Language Option */
+.lang {
+    color: #000;
+    text-align: right;
+    font-size: 12px;
+}
+
+.container-pop-up {
+    max-width: 450px;
+    margin: 60px auto;
+    text-align: left;
+}
+
+.container-pop-up h2 {
+    margin-bottom: 20px;
+    color: #000;
+    font-weight: 400;
+    font-size: 34px;
+}
+
+
+.modal-content-div {
+    padding: 30px;
+
+
+}
