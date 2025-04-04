@@ -56,7 +56,8 @@
                 behavior: "smooth"
             });
         }
-
+        
+       
         function openTab(event, cityName) {
             let tabContents = document.querySelectorAll(".tab-content");
             tabContents.forEach(content => content.classList.remove("active"));
@@ -68,18 +69,7 @@
             event.currentTarget.classList.add("active");
         }
 
-        // document.addEventListener("DOMContentLoaded",function(){
-        //     let navbar =document.querySelector(".navbar");
-        //     if (window.location.pathname === "/" || windows.location.pathname.includes("index.php")){
-               
-        //         navbar.classList.add("navbar-home");
-        //     }
-        //     else{
-               
-        //         navbar.classList.add("navbar-white");
-        //     }
-
-        // });
+       
         const testimonials = [
             {
                 name: "Rohit Kumar, Mumbai",
@@ -104,55 +94,142 @@
         const userName = document.querySelector("h4");
         const testimonialText = document.querySelector(".testimonial-text");
         const dots = document.querySelectorAll(".dot");
+        const nextbtn =document.querySelector(".next-btn");
+        const prvbtn =document.querySelector(".prev-btn");
 
-        document.querySelector(".next-btn").addEventListener("click", () => {
+        if(nextbtn){
+            nextbtn.addEventListener("click", () => {
             currentIndex = (currentIndex + 1) % testimonials.length;
             updateTestimonial();
         });
+        }
+        if(prvbtn){
 
-        document.querySelector(".prev-btn").addEventListener("click", () => {
+            prvbtn.addEventListener("click", () => {
             currentIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
             updateTestimonial();
         });
+         }
 
         function updateTestimonial() {
+            if(profileImg){
             profileImg.src = testimonials[currentIndex].img;
-            userName.textContent = testimonials[currentIndex].name;
-            testimonialText.textContent = testimonials[currentIndex].text;
+        }
+if(userName){
+    userName.textContent = testimonials[currentIndex].name;
 
-            dots.forEach(dot => dot.classList.remove("active"));
+}
+if(testimonialText){
+    testimonialText.textContent = testimonials[currentIndex].text;
+
+}
+if(dots && dots.length > currentIndex && dots[currentIndex]){
+         dots.forEach(dot => dot.classList.remove("active"));
             dots[currentIndex].classList.add("active");
         }
-
+}
+       
+    
         updateTestimonial();
-        <script>
-        // Get modal element
-        var modal = document.getElementById("signupModal");
+       
+        var signupModal = document.getElementById("signupModal");
+        if(signupModal){
 
-        // Get open modal button
-        var openModalBtn = document.getElementById("openModal");
+ var openModalBtn = document.getElementById("openModal");
 
-        // Get close button
-        var closeBtn = document.getElementsByClassName("close-popup")[0];
 
-        // Listen for open click
-        openModalBtn.onclick = function () {
-            modal.style.display = "flex";
+var closeBtn = document.getElementsByClassName("close-popup")[0];
+
+ openModalBtn.onclick = function () {
+    signupModal.style.display = "flex";
         }
 
-        // Listen for close click
         closeBtn.onclick = function () {
-            modal.style.display = "none";
+            signupModal.style.display = "none";
+        }
         }
 
-        // Close modal if outside click
+       
+
+       
+
         window.onclick = function (event) {
-            if (event.target === modal) {
-                modal.style.display = "none";
+            if (event.target === signupModal) {
+                signupModal.style.display = "none";
             }
         }
-    </script>
 
+
+
+
+
+
+
+
+
+let index = 0;
+        const cuisineTextElement = document.getElementById("cuisine-text");
+        const cuisineHeadElement = document.getElementById("cuisine-head");
+
+
+
+             const cuisineTexts = [
+            "With a variety of on-site restaurants and diverse room service options. Our guests are sure to find the food they crave without even having to leave the hotel.",
+            "Enjoy a fine dining experience with exquisite international cuisines and gourmet delights prepared by top chefs.",
+            "Savor the flavors of authentic local dishes made with fresh ingredients and traditional recipes.",
+            "Indulge in a delightful buffet with a range of options from breakfast to dinner, satisfying every palate.",
+            "Experience the joy of street food-inspired delicacies served in a luxurious setting.",
+            "Healthy and organic food options available to suit your dietary preferences."
+        ];
+        const cuisineHeads = ["Facilities","Better Dining","Good Experience"]
+
+        document.getElementById("next-crus-btn").addEventListener("click", () => {
+            index = (index + 1) % cuisineTexts.length;
+            cuisineTextElement.textContent = cuisineTexts[index];
+            index = (index + 1) % cuisineHeads.length;
+            cuisineHeadElement.textContent = cuisineHeads[index];
+        });
+
+        document.getElementById("prev-crus-btn").addEventListener("click", () => {
+            index = (index - 1 + cuisineTexts.length) % cuisineTexts.length;
+            cuisineTextElement.textContent = cuisineTexts[index];
+            index = (index - 1 + cuisineHeads.length) % cuisineHeads.length;
+            cuisineHeadElement.textContent = cuisineHeads[index];
+        });
+// let indexcruis = 0;
+//         const cuisineTextElement = document.getElementById("cuisine-text");
+//         const cuisineHeadElement = document.getElementById("cuisine-head");
+//         const nextCrusbtn =document.querySelector("next-crus-btn");
+//         const prvCrusbtn =document.querySelector("prev-crus-btn");
+//              const cuisineTexts = [
+//             "With a variety of on-site restaurants and diverse room service options. Our guests are sure to find the food they crave without even having to leave the hotel.",
+//             "Enjoy a fine dining experience with exquisite international cuisines and gourmet delights prepared by top chefs.",
+//             "Savor the flavors of authentic local dishes made with fresh ingredients and traditional recipes.",
+//             "Indulge in a delightful buffet with a range of options from breakfast to dinner, satisfying every palate.",
+//             "Experience the joy of street food-inspired delicacies served in a luxurious setting.",
+//             "Healthy and organic food options available to suit your dietary preferences."
+//         ];
+//         const cuisineHeads = ["Facilities","Better Dining","Good Experience"]
+//         if(nextCrusbtn){
+//             nextCrusbtn.addEventListener("click", () => {
+//             indexcruis = (indexcruis + 1) % cuisineTexts.length;
+//             cuisineTextElement.textContent = cuisineTexts[indexcruis];
+//             indexcruis = (indexcruis + 1) % cuisineHeads.length;
+//             cuisineHeadElement.textContent = cuisineHeads[indexcruis];
+//         });
+//         }
+
+       
+// if(prvCrusbtn){
+//     prvCrusbtn.addEventListener("click", () => {
+//             indexcruis = (indexcruis - 1 + cuisineTexts.length) % cuisineTexts.length;
+//             cuisineTextElement.textContent = cuisineTexts[indexcruis];
+//             indexcruis = (indexcruis - 1 + cuisineHeads.length) % cuisineHeads.length;
+//             cuisineHeadElement.textContent = cuisineHeads[indexcruis];
+//         });
+
+// }
+        
     </script>
 
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>

@@ -3,7 +3,7 @@
         <div class="home-top-content">
 
             <h1>Rooms</h1>
-            <p>HOME <i class="bi bi-chevron-double-right mx-2"></i>ROOMS<i class="bi bi-chevron-right mx-2"></i>HIDDEN TOWER
+            <p>HOME <i class="bi bi-chevron-right mx-2"></i>ROOMS<i class="bi bi-chevron-double-right mx-2"></i>HIDDEN TOWER
                 ESTATE</p>
         </div>
     </div>
@@ -59,11 +59,11 @@
                     <div class="d-flex">
                         <div class="facility-div">
                             <ul>
-                                <li><img src="bootstrap/images/king-sized-bed.png" alt="">King size bed</li>
-                                <li><img src="bootstrap/images/Locker.png" alt="">Locker</li>
-                                <li><img src="bootstrap/images/air-condition.png" alt="">Air Condition</li>
-                                <li><img src="bootstrap/images/bathtub.png" alt="">Bathtub</li>
-                                <li><img src="bootstrap/images/wifi-.png" alt=""> Wi Fi</li>
+                                <li><img src="bootstrap/images/king-sized-bed.webp" alt="">King size bed</li>
+                                <li><img src="bootstrap/images/Locker.webp" alt="">Locker</li>
+                                <li><img src="bootstrap/images/air-condition.webp" alt="">Air Condition</li>
+                                <li><img src="bootstrap/images/bathtub.webp" alt="">Bathtub</li>
+                                <li><img src="bootstrap/images/wifi-.webp" alt=""> Wi Fi</li>
 
 
 
@@ -73,11 +73,11 @@
                         <div class="facility-div">
 
                             <ul>
-                                <li><img src="bootstrap/images/minibar.png" alt="">Minibar</li>
-                                <li><img src="bootstrap/images/desk.png" alt="">Desk</li>
-                                <li><img src="bootstrap/images/TV.png" alt="">Television</li>
-                                <li><img src="bootstrap/images/tea-maker.png" alt="">Tea Maker</li>
-                                <li><img src="bootstrap/images/Room-service.png" alt=""> 24/4 room service</li>
+                                <li><img src="bootstrap/images/minibar.webp" alt="">Minibar</li>
+                                <li><img src="bootstrap/images/desk.webp" alt="">Desk</li>
+                                <li><img src="bootstrap/images/TV.webp" alt="">Television</li>
+                                <li><img src="bootstrap/images/tea-maker.webp" alt="">Tea Maker</li>
+                                <li><img src="bootstrap/images/Room-service.webp" alt=""> 24/4 room service</li>
 
 
 

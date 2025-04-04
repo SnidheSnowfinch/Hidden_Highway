@@ -1,5 +1,6 @@
 <?php include 'includes/header.php' ?>
  
+
 <div class="home-top-section">
         <div class="home-top-content">
             <p>WELCOME TO HIDDEN HIDEAWAY</p>
@@ -52,7 +53,7 @@
 
 
                 </div>
-               
+
             </div>
         </div>
     </div>
@@ -96,7 +97,7 @@
 
 
             </div>
-           
+
         </div>
 
     </section>
@@ -178,7 +179,7 @@
                         <button class="tab-btn" onclick="openTab(event, 'Uttarakhand')">Uttarakhand</button>
                         <button class="tab-btn" onclick="openTab(event, 'Goa')">Goa</button>
                     </div>
-        
+
                     <div class="tab-content active" id="Mahabaleshwar">
                         <div class="homes-contaner">
                             <div class="row">
@@ -206,13 +207,13 @@
                                         <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
                                     </div>
                                 </div>
-            
-            
+
+
                             </div>
-                           
+
                         </div>
                     </div>
-        
+
                     <div class="tab-content" id="Nashik">
                         <div class="homes-contaner">
                             <div class="row">
@@ -240,13 +241,13 @@
                                         <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
                                     </div>
                                 </div>
-            
-            
+
+
                             </div>
-                           
+
                         </div>
                     </div>
-        
+
                     <div class="tab-content" id="Karjat">
                         <div class="homes-contaner">
                             <div class="row">
@@ -274,13 +275,13 @@
                                         <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
                                     </div>
                                 </div>
-            
-            
+
+
                             </div>
-                           
+
                         </div>
                     </div>
-        
+
                     <div class="tab-content" id="Alibaug">
                         <div class="homes-contaner">
                             <div class="row">
@@ -308,13 +309,13 @@
                                         <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
                                     </div>
                                 </div>
-            
-            
+
+
                             </div>
-                           
+
                         </div>
                     </div>
-        
+
                     <div class="tab-content" id="Himachal">
                         <div class="homes-contaner">
                             <div class="row">
@@ -342,13 +343,13 @@
                                         <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
                                     </div>
                                 </div>
-            
-            
+
+
                             </div>
-                           
+
                         </div>
                     </div>
-        
+
                     <div class="tab-content" id="Uttarakhand">
                         <div class="homes-contaner">
                             <div class="row">
@@ -376,13 +377,13 @@
                                         <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
                                     </div>
                                 </div>
-            
-            
+
+
                             </div>
-                           
+
                         </div>
                     </div>
-        
+
                     <div class="tab-content" id="Goa">
                         <div class="homes-contaner">
                             <div class="row">
@@ -410,18 +411,18 @@
                                         <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
                                     </div>
                                 </div>
-                               
-            
-            
+
+
+
                             </div>
-                           
+
                         </div>
                     </div>
                 </div>
-                   
-                </div>
+
             </div>
         </div>
+    </div>
     </div>
     <div class="container">
         <section class="luxury-section">

@@ -9,7 +9,7 @@
     <div class="position-relative w-100">
         <div class="fade-back">
             <div class="container ">
-                <div class="homes-section d-flex ">
+                <div class="homes-section d-phone-flex ">
 
                     <div class="sub-head">
                         <div>
@@ -22,12 +22,12 @@
 
                     <div class="abt-section">
                         <div class="image-content-large">
-                            <img src="bootstrap/images/building1.jpg" alt="Luxury Home">
+                            <img src="bootstrap/images/building1.webp" alt="Luxury Home">
 
                         </div>
                         <div class="image-content">
-                            <img src="bootstrap/images/building2.jpg" alt="Modern Retreat">
-                            <img src="bootstrap/images/building3.jpg" alt="Classic Homestay">
+                            <img src="bootstrap/images/building2.webp" alt="Modern Retreat">
+                            <img src="bootstrap/images/building3.webp" alt="Classic Homestay">
                         </div>
                     </div>
                 </div>
@@ -49,15 +49,15 @@
                 <h2>Top Reasons Choose Us</h2>
                 <p>01 &nbsp; 02 &nbsp; 03 &nbsp; 04 &nbsp; 05 &nbsp; 06</p></div>
             <div class="navigation">
-                <div class="nav-gray-button">&#8592;</div>
-                <div class="nav-gray-button">&#8594;</div>
+                <button id="next-crus-btn" class="nav-gray-button">&#8592;</button>
+                <button id="prev-crus-btn" class="nav-gray-button">&#8594;</button>
             </div>
         </div>
         <div class="right-box-gray position-relative">
-            <img src="bootstrap/images/resto-img.jpg" alt="Fine Dining">
+            <img src="bootstrap/images/resto-img.webp" alt="Fine Dining">
             <div class="text-gray-content">
-                <h3>Best Cuisine</h3>
-                <p>With a variety of on-site restaurants and diverse room service options. Our guests are sure to find the food they crave without even having to leave the hotel.</p>
+                <h3 id="cuisine-head">Best Cuisine</h3>
+                <p id="cuisine-text">With a variety of on-site restaurants and diverse room service options. Our guests are sure to find the food they crave without even having to leave the hotel.</p>
             </div>
         </div>
     </div>
@@ -352,6 +352,5 @@
             </div>
         </div>
     </div>
-
 
 <?php include 'includes/footer.php' ?>

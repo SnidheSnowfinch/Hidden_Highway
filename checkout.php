@@ -75,6 +75,7 @@
 
 
                     <form class="reservation-form">
+                       
                         <div class="row">
 
                             <div class="col-lg-6 col-md-6 col-sm-12">
@@ -129,8 +130,15 @@
                                         </div>
 
                                     </div>
+                                    <div class="payment-options">
+                                        <a class="option" id="card-option"><img src="bootstrap/images/card.webp" alt=""> Card</a>
+                                        <a class="option" id="googlepay-option"><img src="bootstrap/images/Gpay.webp" alt=""> Google Pay</a>
+                                        <a class="option" id="bank-option"><img src="bootstrap/images/bank.webp" alt=""> Bank</a>
+                                        <a class="option-small" id="bank-option"><img src="bootstrap/images/icon-dot.webp" alt=""></a>
+
+                                    </div>
                                     <label>Card Number</label>
-                                    <input type="number">
+                                   <div class="position-relative"> <input type="number"> <img class="card-group" src="bootstrap/images/creditCardBrands.webp" alt=""></div>
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6 col-sm-12">
                                             <label>Expiration</label>
@@ -170,8 +178,14 @@
         <div class="modal-content">
             <span class="close-popup">&times;</span>
             <div class="modal-flex">
-                <div>
-                    <img class="modal-content-img" src="bootstrap/images/login-popup.png" alt="">
+                <div class="position-relative">
+                    <img class="modal-content-img" src="bootstrap/images/login-popup.webp" alt="">
+                    <div class="mod-inner-text">
+                        <h2>Hidden Highway park, Munnar</h2>
+                        <p>Date:30/sep/2024</p>
+                        <p>Time:10AM</p>
+                        <Button class="reservation-btn">Book Now</Button>
+                    </div>
                 </div>
                 <div class="modal-content-div">
                     <div class="lang">English (UK)</div>
@@ -200,9 +214,9 @@
                 </form>
                 <div class="or">Or</div>
                 <div class="social-login">
-                    <button class="social-btn google"><img src="bootstrap/images/google-img.png"> Signup with
+                    <button class="social-btn google"><img src="bootstrap/images/google-img.webp"> Signup with
                         Google</button>
-                    <button class="social-btn facebook"><img src="bootstrap/images/fb-image.png" alt="Facebook"> Signup with
+                    <button class="social-btn facebook"><img src="bootstrap/images/fb-image.webp" alt="Facebook"> Signup with
                         Facebook</button>
                 </div>
                 <p class="login-link">Already have an account? <a href="#">Log In</a></p>

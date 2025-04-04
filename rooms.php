@@ -3,17 +3,20 @@
         <div class="home-top-content">
           
             <h1>Rooms</h1>
-           <p>HOME <i class="bi bi-chevron-double-right mx-2"></i>ROOMS</p>
+           <p>HOME <i class="bi bi-chevron-right mx-2"></i>ROOMS</p>
         </div>
     </div>
     <div class="container">
+
         <div class="homes-section">
             <div class="sub-head">
                 <div>
                     <h2>Homes near you</h2>
                     <p>Kochi - Not here? <span class="yellow-text-link">Detect my location</span></p>
                 </div>
+                
             </div>
+
             <div class="homes-contaner">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-12">
@@ -71,4 +74,5 @@
             </div>
         </div>
     </div>
+
 <?php include 'includes/footer.php' ?>

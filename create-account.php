@@ -33,9 +33,9 @@
             </form>
             <div class="or">Or</div>
             <div class="social-login">
-                <button class="social-btn google"><img src="bootstrap/images/google-img.png"> Signup with
+                <button class="social-btn google"><img src="bootstrap/images/google-img.webp"> Signup with
                     Google</button>
-                <button class="social-btn facebook"><img src="bootstrap/images/fb-image.png" alt="Facebook"> Signup with
+                <button class="social-btn facebook"><img src="bootstrap/images/fb-image.webp" alt="Facebook"> Signup with
                     Facebook</button>
             </div>
             <p class="login-link">Already have an account? <a href="#">Log In</a></p>

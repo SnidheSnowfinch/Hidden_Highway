@@ -9,7 +9,7 @@
     <div class="position-relative w-100">
         <div class="">
             <div class="container ">
-                <div class="homes-section d-flex ">
+                <div class="homes-section d-main-flex ">
 
                     <div class="sub-head">
                         <div>
@@ -19,19 +19,19 @@
                                 your private escape..</p>
 
                             <div class="contact-div">
-                                <section><img src="bootstrap/images/location-gray.png" alt="">
+                                <section><img src="bootstrap/images/location-gray.webp" alt="">
                                     <div class="cont-text">
                                         <h4>Address</h4>
                                         <p>Hidden Hideaway ,beach road , 2nd street 47754, INDIA</p>
                                     </div>
                                 </section>
-                                <section><img src="bootstrap/images/email-gray.png" alt="">
+                                <section><img src="bootstrap/images/email-gray.webp" alt="">
                                     <div class="cont-text">
                                         <h4>Email</h4>
                                         <p>hiddenhideaway@gmail.com</p>
                                     </div>
                                 </section>
-                                <section><img src="bootstrap/images/phone-gray.png" alt="">
+                                <section><img src="bootstrap/images/phone-gray.webp" alt="">
                                     <div class="cont-text">
                                         <h4>Phone</h4>
                                         <p>+91 1234567890</p>
@@ -61,7 +61,7 @@
 
 
 
-                            <button class="room-button" type="submit">Submit</button>
+                            <button class="room-button" type="submit">Book Room Now</button>
                         </form>
                     </div>
 
@@ -71,7 +71,7 @@
                     <div class="row">
                         <div class="col-lg-4 col-md-6 col-sm-12">
                             <div class="home-card card pt-0">
-                                <img src="bootstrap/images/building1.jpg" alt="House">
+                                <img src="bootstrap/images/building1.webp" alt="House">
 
                                <div class="card-body">
                                 <h4>Hidden Tower Estate</h4>
@@ -110,7 +110,7 @@
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12">
                             <div class="home-card card pt-0">
-                                <img src="bootstrap/images/building2.jpg" alt="House">
+                                <img src="bootstrap/images/building2.webp" alt="House">
 
                                <div class="card-body">
                                 <h4>Hidden Tower Estate</h4>
@@ -130,7 +130,7 @@
                                         <i class="bi bi-at"></i>
                                     </div>
                                     <div class="col-10 text-left">
-                                        <p class="align-items-left card-text"> hiddenhideaway@gmail.com</p>
+                                        <p class="align-items-left card-text">hiddenhideaway@gmail.com</p>
                                     </div>
 
                                 </div>
@@ -149,7 +149,7 @@
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12">
                             <div class="home-card card pt-0">
-                                <img src="bootstrap/images/building3.jpg" alt="House">
+                                <img src="bootstrap/images/building3.webp" alt="House">
 
                                <div class="card-body">
                                 <h4>Hidden Tower Estate</h4>
@@ -196,4 +196,5 @@
         </div>
 
     </div>
+
 <?php include 'includes/footer.php' ?>

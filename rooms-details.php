@@ -1,25 +1,29 @@
 <?php include 'includes/header.php' ?>
 <div class="home-top-section-inner ">
         <div class="home-top-content">
-          
+
             <h1>Rooms</h1>
-           <p>HOME <i class="bi bi-chevron-double-right mx-2"></i>ROOMS</p>
+            <p>HOME <i class="bi bi-chevron-right mx-2"></i>ROOMS</p>
         </div>
     </div>
+
     <div class="container ">
         <div class="homes-section">
-            <div class="sub-head">
+            <div class="sub-head d-flex align-items-center">
                 <div>
                     <h2>Homes near you</h2>
                     <p>Kochi - Not here? <span class="yellow-text-link">Detect my location</span></p>
+                </div>
+                <div class="align-items-right">
+                    <P class="text-dark h5">Sort by <i class="bi bi-chevron-down"></i></P>
                 </div>
             </div>
 
             <div class="row">
 
-                
 
-            <div class="col-lg-9 col-md-8">
+
+                <div class="col-lg-9 col-md-8">
                     <div class="rooms-card position-relative">
                         <div class="cont left-right-space ">
 
@@ -44,7 +48,7 @@
                                 <p>Ooty, Tamil Nadu</p>
                                 <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
                                 <p class="d-flex" style="align-items: center;"><img class="mx-2"
-                                        src="bootstrap/images/tea-icon.png" alt="" style="width: 18px;">Breakfast
+                                        src="bootstrap/images/tea-icon.webp" alt="" style="width: 18px;">Breakfast
                                     included</p>
 
                                 <div class="space-between">
@@ -101,7 +105,7 @@
                                 <p>Ooty, Tamil Nadu</p>
                                 <p>Entire House | 3-5 Guests | Free Wi-Fi</p>
                                 <p class="d-flex" style="align-items: center;"><img class="mx-2"
-                                        src="bootstrap/images/tea-icon.png" alt="" style="width: 18px;">Breakfast
+                                        src="bootstrap/images/tea-icon.webp" alt="" style="width: 18px;">Breakfast
                                     included</p>
 
                                 <div class="space-between">
