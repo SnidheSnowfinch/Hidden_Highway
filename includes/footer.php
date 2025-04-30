@@ -18,7 +18,8 @@
             <div class="footer-column">
                 <h3>Links</h3>
                 <ul>
-                    <li><a href="#">Contacts</a></li>
+                    <li><a href="contact-us.php"></a></li>
+                    
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Booking</a></li>
                 </ul>
