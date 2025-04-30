@@ -11,7 +11,7 @@
             <div class="container ">
                 <div class="homes-section d-main-flex ">
 
-                    <div class="sub-head">
+                    <div class="sub-head d-block">
                         <div>
                             <h2>Contact Hidden Hideaway Book your dream stay</h2>
                             <p class="mt-3">Don't hesitate to reach out to our dedicated team, and we'll ensure every

@@ -2,8 +2,8 @@
 <div class="home-top-section-inner ">
         <div class="home-top-content">
 
-            <h1>Rooms</h1>
-            <p>HOME <i class="bi bi-chevron-right mx-2"></i>ROOMS<i class="bi bi-chevron-double-right mx-2"></i>HIDDEN TOWER
+            <h1>Hidden tower Estate</h1>
+            <p>HOME <i class="bi bi-chevron-right mx-2"></i>HIDDEN TOWER
                 ESTATE</p>
         </div>
     </div>
