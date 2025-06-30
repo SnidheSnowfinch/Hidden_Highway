@@ -12,7 +12,7 @@
                     <li><a href="#">Gallery</a></li>
                     <li><a href="#">Testimonials</a></li>
                     <li><a href="#">Services</a></li>
-                    <li><a href="#">Rooms</a></li>
+                    <li><a href="room-details.php">Rooms</a></li>
                 </ul>
             </div>
             <div class="footer-column">
@@ -20,8 +20,8 @@
                 <ul>
                     <li><a href="contact-us.php"></a></li>
                     
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Booking</a></li>
+                    <!-- <li><a href="#">Blog</a></li> -->
+                    <li><a href="booking-list-3.php">Booking</a></li>
                 </ul>
             </div>
 
@@ -161,13 +161,6 @@ var closeBtn = document.getElementsByClassName("close-popup")[0];
         }
 
 
-
-
-
-
-
-
-
 let index = 0;
         const cuisineTextElement = document.getElementById("cuisine-text");
         const cuisineHeadElement = document.getElementById("cuisine-head");
@@ -230,7 +223,42 @@ let index = 0;
 //         });
 
 // }
-        
+const counters = document.querySelectorAll('.stat-number');
+    let triggered = false;
+
+    function countUp(counter) {
+      const target = +counter.getAttribute('data-target');
+      const suffix = counter.getAttribute('data-suffix');
+      let count = 0;
+      const step = Math.ceil(target / 100);
+
+      const interval = setInterval(() => {
+        count += step;
+        if (count >= target) {
+          count = target;
+          clearInterval(interval);
+        }
+
+        if (suffix === 'k+') {
+          counter.textContent = Math.floor(count / 1000) + 'k+';
+        } else {
+          counter.textContent = count + '+';
+        }
+
+      }, 20);
+    }
+
+    window.addEventListener('scroll', () => {
+      const section = document.getElementById('counter-section');
+      const sectionTop = section.getBoundingClientRect().top;
+
+      if (sectionTop < window.innerHeight && !triggered) {
+        triggered = true;
+        counters.forEach(countUp);
+      }
+    });
+
+    
     </script>
 
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>

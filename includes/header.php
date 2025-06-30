@@ -17,7 +17,7 @@
 <body>
     <div class="navbar navbar-home navbar-expand-lg" id="navbar">
         <div class="logo">
-            <img src="bootstrap/images/nav-logo.webp" alt="">
+            <a href="index.php"><img src="bootstrap/images/nav-logo.webp" alt=""></a>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
             <span class="navbar-toggler-icon"></span>
@@ -27,10 +27,10 @@
             <div class="menu navbar-nav  nav-gap">
                 <a href="index.php">Home</a>
                 <a href="about-us.php">About Us</a>
-                <a href="">Activities</a>
-                <a href="#">Gallery</a>
-                <a href="#">Destinations</a>
-                <a href="#">Blog</a>
+                <!-- <a href="">Activities</a> -->
+                <!-- <a href="#">Gallery</a> -->
+                <!-- <a href="#">Destinations</a>
+                <a href="#">Blog</a> -->
                 <a href="contact-us.php">Contact</a>
                 <a href="#" class="reservation-btn">Reservation</a>
             </div>

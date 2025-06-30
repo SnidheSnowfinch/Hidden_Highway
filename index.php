@@ -20,7 +20,7 @@
                     <p>Kochi - Not here? <span class="yellow-text-link">Detect my location</span></p>
                 </div>
                 <div>
-                    <a class="more-text text-decoration-none text-dark">View More <i class="bi bi-arrow-right"></i></a>
+                    <a href="rooms-details.php" class="more-text text-decoration-none text-dark">View More <i class="bi bi-arrow-right"></i></a>
                 </div>
             </div>
 
@@ -164,7 +164,7 @@
                         <h2>Available This Weekend</h2>
                     </div>
                     <div>
-                        <a class="more-text text-decoration-none text-dark">View More <i
+                        <a href="rooms-details.php" class="more-text text-decoration-none text-dark">View More <i
                                 class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>

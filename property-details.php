@@ -224,7 +224,7 @@
                         <h2>Available This Weekend</h2>
                     </div>
                     <div>
-                        <a class="more-text text-decoration-none text-dark">View More <i
+                        <a href="rooms-details.php" class="more-text text-decoration-none text-dark">View More <i
                                 class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>

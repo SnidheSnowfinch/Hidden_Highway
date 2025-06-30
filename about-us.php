@@ -34,11 +34,23 @@
             </div>
         </div>
         <div class="container state-height">
-            <div class="stats container">
-                <div class="stat"><span>200+</span><br>Homes</div>
-                <div class="stat"><span>900+</span><br>Rooms</div>
-                <div class="stat"><span>16+</span><br>States</div>
-                <div class="stat"><span>100k+</span><br>Happy Families</div>
+            <div class="stats container" id="counter-section">
+            <div class="stat">
+      <div class="stat-number" data-target="200" data-suffix="+">0</div>
+      <div class="stat-label">Homes</div>
+    </div>
+    <div class="stat">
+    <div class="stat-number" data-target="900" data-suffix="+">0</div>
+      <div class="stat-label">Rooms</div>
+    </div>
+    <div class="stat">
+    <div class="stat-number" data-target="16" data-suffix="+">0</div>
+      <div class="stat-label">States</div>
+    </div>
+    <div class="stat">
+    <div class="stat-number" data-target="100" data-suffix="+">0</div>
+      <div class="stat-label">Happy Families</div>
+    </div>
             </div>
         </div>
     </div>
@@ -93,7 +105,7 @@
                         <h2>Available This Weekend</h2>
                     </div>
                     <div>
-                        <a class="more-text text-decoration-none text-dark">View More <i
+                        <a href="rooms-details.php" class="more-text text-decoration-none text-dark">View More <i
                                 class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>

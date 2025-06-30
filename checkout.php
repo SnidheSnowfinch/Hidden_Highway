@@ -135,10 +135,11 @@
                                         <a class="option" id="googlepay-option"><img src="bootstrap/images/Gpay.webp" alt=""> Google Pay</a>
                                         <a class="option" id="bank-option"><img src="bootstrap/images/bank.webp" alt=""> Bank</a>
                                         <a class="option-small" id="bank-option"><img src="bootstrap/images/icon-dot.webp" alt=""></a>
-
+ 
                                     </div>
                                     <label>Card Number</label>
-                                   <div class="position-relative"> <input type="number"> <img class="card-group" src="bootstrap/images/creditCardBrands.webp" alt=""></div>
+                                   <div class="position-relative">
+                                     <input type="number"> <img class="card-group" src="bootstrap/images/creditCardBrands.webp" alt=""></div>
                                     <div class="row">
                                         <div class="col-lg-6 col-md-6 col-sm-12">
                                             <label>Expiration</label>
